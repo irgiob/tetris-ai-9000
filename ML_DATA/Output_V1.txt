@@ -1,0 +1,725 @@
+##############        GENERATION 0  ###############
+fitness value of chromosome 0 :   25
+fitness value of chromosome 1 :   251
+fitness value of chromosome 2 :   30
+fitness value of chromosome 3 :   24
+fitness value of chromosome 4 :   36
+fitness value of chromosome 5 :   40
+fitness value of chromosome 6 :   23
+fitness value of chromosome 7 :   10
+fitness value of chromosome 8 :   28
+fitness value of chromosome 9 :   24
+fitness value of chromosome 10 :   28
+fitness value of chromosome 11 :   39
+fitness value of chromosome 12 :   23
+fitness value of chromosome 13 :   34
+fitness value of chromosome 14 :   26
+fitness value of chromosome 15 :   21
+fitness value of chromosome 16 :   8
+fitness value of chromosome 17 :   35
+fitness value of chromosome 18 :   9
+fitness value of chromosome 19 :   10
+fitness value of chromosome 20 :   23
+fitness value of chromosome 21 :   45
+fitness value of chromosome 22 :   23
+fitness value of chromosome 23 :   24
+fitness value of chromosome 24 :   44
+fitness value of chromosome 25 :   9
+fitness value of chromosome 26 :   11
+fitness value of chromosome 27 :   25
+fitness value of chromosome 28 :   9
+fitness value of chromosome 29 :   9
+fitness value of chromosome 30 :   139
+fitness value of chromosome 31 :   27
+fitness value of chromosome 32 :   24
+fitness value of chromosome 33 :   16
+fitness value of chromosome 34 :   26
+fitness value of chromosome 35 :   23
+fitness value of chromosome 36 :   27
+fitness value of chromosome 37 :   15
+fitness value of chromosome 38 :   41
+fitness value of chromosome 39 :   25
+fitness value of chromosome 40 :   26
+fitness value of chromosome 41 :   9
+fitness value of chromosome 42 :   40
+fitness value of chromosome 43 :   25
+fitness value of chromosome 44 :   21
+fitness value of chromosome 45 :   14
+fitness value of chromosome 46 :   34
+fitness value of chromosome 47 :   32
+fitness value of chromosome 48 :   26
+fitness value of chromosome 49 :   24
+#######  fittest chromosome in gneneration 0 is having fitness value:   251
+[-0.73 -0.47  0.96 -0.22 -0.43 -0.3   0.8  -0.35  0.47 -0.07 -0.59 -0.66
+  0.98 -0.76  0.67 -0.19  0.25  0.83 -0.92  0.81  0.69  0.15 -0.28  0.04
+ -0.3   0.89  0.86 -0.6 ]
+[-0.17 -0.24 -0.41 -0.63  0.47 -0.86 -0.23 -0.63  0.73 -0.1  -0.52 -0.96
+  0.04  0.47 -0.79  0.56 -0.43 -0.88  0.71  0.03 -0.66  0.72 -0.2  -0.04
+  0.23  0.59 -0.93  0.36]
+[ 0.16 -0.14  0.66 -0.4  -0.94  0.79  0.27  0.05  0.35 -1.   -0.02  0.8
+  0.32  0.61 -0.06 -0.97 -0.24 -0.03  0.27 -0.61  0.13 -0.57 -0.27  0.84
+  0.7   0.45  0.51 -0.13]
+[-0.2  -0.7   0.02 -0.93  0.29 -0.88 -0.18  0.85  0.86 -0.79 -0.49  0.85
+  0.5  -0.06  0.7  -0.44  0.32 -0.49 -0.49  0.77  0.49 -0.71 -0.93  0.4
+  0.68 -0.71 -0.31 -0.6 ]
+[-0.7  -0.02 -0.01  0.42  0.97  0.62 -0.95 -0.49  0.59  0.92 -0.7  -0.96
+  0.89  0.81  0.45  0.11 -0.66  0.2   0.38  0.5  -0.29 -0.63  0.26 -0.03
+ -0.42 -0.07 -0.11 -0.79]
+[ 6.5000000e-01  2.1000000e-01  9.0000000e-02  2.4000000e-01
+  2.4000000e-01 -8.9000000e-01 -5.6000000e-01 -5.9000000e-01
+  7.6000000e-01 -4.3000000e-01  8.8000000e-01 -2.7000000e-01
+ -7.0000000e-02  8.8817842e-16  7.6000000e-01  6.0000000e-02
+ -8.8000000e-01  4.9000000e-01 -4.7000000e-01  6.1000000e-01
+  7.8000000e-01 -5.0000000e-01  7.0000000e-02 -8.2000000e-01
+ -9.9000000e-01 -6.0000000e-02 -3.6000000e-01 -3.6000000e-01]
+[-0.91 -0.74 -0.46 -0.48 -0.99  0.76 -0.29  0.99 -0.2   0.6  -0.51 -0.54
+  0.45  0.81  0.42 -0.39  0.02 -0.73  0.79  0.03 -0.8  -0.63 -0.78 -0.71
+  0.49  0.82  0.94  0.33]
+[-0.13  0.98 -0.38 -0.34 -0.19  0.83 -0.1   0.26  0.92  0.58  0.14 -0.44
+  0.44  0.11  0.98  0.01 -0.29 -0.8   0.77 -0.37  0.86  0.17 -0.66 -0.64
+  0.62 -0.83 -0.42 -0.17]
+[ 0.15  0.69  0.44  0.64  0.5  -0.6   0.62  0.87  0.83 -0.88 -0.7   0.02
+ -0.34  0.89 -0.92  0.84 -0.64  0.05  0.98  0.76  0.76  0.91  0.21 -0.93
+ -0.63  0.98 -0.9  -0.63]
+[ 0.49 -0.44 -0.1   0.56  0.91  0.19 -0.04 -0.65  0.35  0.22 -0.47  0.76
+ -0.95  0.64 -0.27  0.09  0.56 -0.94 -0.93  0.13  0.67  0.52 -0.46 -0.02
+ -0.72  0.09  0.48 -0.68]
+[-0.77  0.54 -0.28 -0.25  0.31 -0.71 -0.67  0.54  0.28 -0.16  0.65 -0.67
+  0.53  0.35 -0.01 -0.88 -0.68  0.06  0.81  0.78  0.56 -0.51 -0.43 -0.64
+ -0.37 -0.8  -0.53 -0.51]
+[ 0.34 -0.34 -0.98  0.27 -0.37  0.12 -0.55  0.31  0.06 -0.26 -0.21  0.05
+ -0.58  0.87 -0.72 -0.95  0.06 -0.72 -0.78  0.87 -0.7  -0.48  0.34 -0.45
+ -0.44 -0.74 -0.21 -0.18]
+##############        GENERATION 1  ###############
+fitness value of chromosome 0 :   44
+fitness value of chromosome 1 :   41
+fitness value of chromosome 2 :   42
+fitness value of chromosome 3 :   249
+fitness value of chromosome 4 :   48
+fitness value of chromosome 5 :   145
+fitness value of chromosome 6 :   238
+fitness value of chromosome 7 :   47
+fitness value of chromosome 8 :   45
+fitness value of chromosome 9 :   47
+fitness value of chromosome 10 :   40
+fitness value of chromosome 11 :   43
+fitness value of chromosome 12 :   36
+fitness value of chromosome 13 :   49
+fitness value of chromosome 14 :   52
+fitness value of chromosome 15 :   48
+fitness value of chromosome 16 :   9
+fitness value of chromosome 17 :   138
+fitness value of chromosome 18 :   40
+fitness value of chromosome 19 :   21
+fitness value of chromosome 20 :   34
+fitness value of chromosome 21 :   46
+fitness value of chromosome 22 :   28
+fitness value of chromosome 23 :   37
+fitness value of chromosome 24 :   44
+fitness value of chromosome 25 :   142
+fitness value of chromosome 26 :   39
+fitness value of chromosome 27 :   39
+fitness value of chromosome 28 :   42
+fitness value of chromosome 29 :   38
+fitness value of chromosome 30 :   37
+fitness value of chromosome 31 :   26
+fitness value of chromosome 32 :   39
+fitness value of chromosome 33 :   46
+fitness value of chromosome 34 :   27
+fitness value of chromosome 35 :   39
+fitness value of chromosome 36 :   24
+fitness value of chromosome 37 :   11
+fitness value of chromosome 38 :   142
+fitness value of chromosome 39 :   243
+fitness value of chromosome 40 :   46
+fitness value of chromosome 41 :   11
+fitness value of chromosome 42 :   21
+fitness value of chromosome 43 :   433
+fitness value of chromosome 44 :   44
+fitness value of chromosome 45 :   9
+fitness value of chromosome 46 :   9
+fitness value of chromosome 47 :   36
+fitness value of chromosome 48 :   34
+fitness value of chromosome 49 :   23
+#######  fittest chromosome in gneneration 1 is having fitness value:   433
+[-0.13  -0.34  -0.98   0.27  -0.37   0.83  -0.55   0.31   0.06   0.58
+  0.14   0.05  -0.58   0.87  -0.72   0.01  -0.962 -0.8    0.77   0.87
+ -0.7    0.17  -0.66  -0.64   0.62  -0.83  -0.21  -0.17 ]
+[-0.2  -0.7   0.02 -0.93  0.29 -0.88 -0.18  0.85  0.86 -0.79 -0.49  0.85
+  0.5  -0.06  0.7  -0.44  0.32 -0.49 -0.49  0.77  0.49 -0.71 -0.93  0.4
+  0.68 -0.71 -0.31 -0.6 ]
+[ 0.15   0.69   0.44  -0.34  -0.19  -0.6   -0.1    0.26   0.92  -0.88
+  0.14   0.02  -0.34   0.11   0.98   0.01  -0.121 -0.8    0.77   0.76
+  0.76   0.17   0.21  -0.93   0.62  -0.83  -0.42  -0.63 ]
+[-0.91 -0.74 -0.46 -0.48 -0.99  0.76 -0.29  0.99 -0.2   0.6  -0.51 -0.54
+  0.45  0.81  0.42 -0.39  0.02 -0.73  0.79  0.03 -0.8  -0.63 -0.78 -0.71
+  0.49  0.82  0.94  0.33]
+[ 6.5000000e-01  2.1000000e-01  9.0000000e-02  2.4000000e-01
+  2.4000000e-01 -8.9000000e-01 -5.6000000e-01 -5.9000000e-01
+  7.6000000e-01 -4.3000000e-01  8.8000000e-01 -2.7000000e-01
+ -7.0000000e-02  8.8817842e-16  7.6000000e-01  6.0000000e-02
+ -8.8000000e-01  4.9000000e-01 -4.7000000e-01  6.1000000e-01
+  7.8000000e-01 -5.0000000e-01  7.0000000e-02 -8.2000000e-01
+ -9.9000000e-01 -6.0000000e-02 -3.6000000e-01 -3.6000000e-01]
+[ 0.16 -0.82 -0.1  -0.4   0.91  0.79  0.27 -0.65  0.35 -1.   -0.47  0.8
+  0.32  0.61 -0.27 -0.97 -0.24 -0.03 -0.93  0.13  0.67 -0.57 -0.46 -0.02
+  0.7   0.45  0.48 -0.68]
+[-0.73  -0.47   0.44  -0.22  -0.43  -0.3    0.8    0.87   0.83  -0.88
+ -0.7   -0.66  -0.34  -0.76  -0.92   0.84   0.25   0.208 -0.92   0.76
+  0.69   0.91  -0.28  -0.93  -0.63   0.98  -0.9   -0.6  ]
+[-0.219 -0.44  -0.28  -0.25   0.91  -0.71  -0.04   0.54   0.35  -0.16
+  0.65  -0.67  -0.95   0.64  -0.01   0.09   0.56  -0.94   0.81   0.78
+  0.67  -0.51  -0.46  -0.64  -0.72  -0.8   -0.53  -0.51 ]
+[-0.73  -0.47  -0.1    0.56  -0.43  -0.025 -0.04  -0.35   0.47  -0.07
+ -0.59   0.76   0.98  -0.76   0.67   0.09   0.56  -0.94  -0.93   0.81
+  0.69   0.52  -0.46   0.04  -0.3    0.89   0.48  -0.6  ]
+[-0.17  -0.24   0.44   0.64   0.5   -0.86   0.62   0.87   0.83  -0.1
+ -0.52  -0.96  -0.34   0.47  -0.79   0.56  -0.43  -0.88   0.71   0.03
+  0.923  0.72  -0.2   -0.93  -0.63   0.98  -0.93   0.36 ]
+[-0.7  -0.02 -0.01  0.42  0.97  0.62 -0.95 -0.49  0.59  0.92 -0.7  -0.96
+  0.89  0.81  0.45  0.11 -0.66  0.2   0.38  0.5  -0.29 -0.63  0.26 -0.03
+ -0.42 -0.07 -0.11 -0.79]
+[-0.17  -0.7    0.02  -0.63   0.47  -0.88  -0.23  -0.63   0.86  -0.79
+ -0.52  -0.96   0.5    0.701 -0.79   0.56   0.32  -0.88   0.71   0.03
+  0.49  -0.71  -0.93   0.4    0.68  -0.71  -0.31   0.36 ]
+##############        GENERATION 2  ###############
+fitness value of chromosome 0 :   147
+fitness value of chromosome 1 :   46
+fitness value of chromosome 2 :   32
+fitness value of chromosome 3 :   49
+fitness value of chromosome 4 :   40
+fitness value of chromosome 5 :   132
+fitness value of chromosome 6 :   139
+fitness value of chromosome 7 :   44
+fitness value of chromosome 8 :   52
+fitness value of chromosome 9 :   137
+fitness value of chromosome 10 :   55
+fitness value of chromosome 11 :   40
+fitness value of chromosome 12 :   38
+fitness value of chromosome 13 :   40
+fitness value of chromosome 14 :   21
+fitness value of chromosome 15 :   45
+fitness value of chromosome 16 :   38
+fitness value of chromosome 17 :   35
+fitness value of chromosome 18 :   131
+fitness value of chromosome 19 :   36
+fitness value of chromosome 20 :   43
+fitness value of chromosome 21 :   33
+fitness value of chromosome 22 :   133
+fitness value of chromosome 23 :   45
+fitness value of chromosome 24 :   33
+fitness value of chromosome 25 :   50
+fitness value of chromosome 26 :   38
+fitness value of chromosome 27 :   36
+fitness value of chromosome 28 :   143
+fitness value of chromosome 29 :   39
+fitness value of chromosome 30 :   39
+fitness value of chromosome 31 :   42
+fitness value of chromosome 32 :   39
+fitness value of chromosome 33 :   137
+fitness value of chromosome 34 :   30
+fitness value of chromosome 35 :   33
+fitness value of chromosome 36 :   27
+fitness value of chromosome 37 :   41
+fitness value of chromosome 38 :   21
+fitness value of chromosome 39 :   40
+fitness value of chromosome 40 :   49
+fitness value of chromosome 41 :   50
+fitness value of chromosome 42 :   39
+fitness value of chromosome 43 :   38
+fitness value of chromosome 44 :   24
+fitness value of chromosome 45 :   44
+fitness value of chromosome 46 :   39
+fitness value of chromosome 47 :   39
+fitness value of chromosome 48 :   47
+fitness value of chromosome 49 :   39
+#######  fittest chromosome in gneneration 2 is having fitness value:   147
+[-0.13  -0.34  -0.98   0.27  -0.37   0.83  -0.55   0.31   0.06   0.58
+  0.14   0.05  -0.58   0.87  -0.72   0.01  -0.962 -0.8    0.77   0.87
+ -0.7    0.17  -0.66  -0.64   0.62  -0.83  -0.21  -0.17 ]
+[-0.73  -0.47   0.44  -0.22  -0.43  -0.3    0.8   -0.49   0.83  -0.88
+ -0.501 -0.66  -0.34  -0.76   0.45   0.11   0.25   0.208  0.38   0.76
+ -0.29   0.91  -0.28  -0.93  -0.42  -0.07  -0.9   -0.6  ]
+[-0.73  -0.47   0.44  -0.22  -0.43  -0.3    0.8    0.87   0.83  -0.88
+ -0.7   -0.66  -0.34  -0.76  -0.92   0.84   0.25   0.208 -0.92   0.76
+  0.69   0.91  -0.28  -0.93  -0.63   0.98  -0.9   -0.6  ]
+[-0.17  -0.24   0.44   0.64   0.5   -0.86   0.62   0.87   0.83  -0.1
+ -0.52  -0.96  -0.34   0.47  -0.79   0.56  -0.43  -0.88   0.71   0.03
+  0.923  0.72  -0.2   -0.93  -0.63   0.98  -0.93   0.36 ]
+[-0.73 -0.7   0.02 -0.63 -0.43 -0.88 -0.23 -0.35  0.47 -0.79 -0.52  0.76
+  0.98 -0.76  0.67  0.09  0.56 -0.88  0.71  0.81  0.69 -0.99 -0.46  0.04
+ -0.3   0.89  0.48  0.36]
+[-0.17  -0.7    0.44  -0.63  -0.19  -0.88  -0.23   0.26   0.92  -0.88
+  0.14  -0.96  -0.34   1.237 -0.79   0.01   0.32  -0.88   0.77   0.03
+  0.49   0.17   0.21   0.4    0.68  -0.83  -0.42   0.36 ]
+[ 0.16 -0.82 -0.1  -0.4   0.91  0.79  0.27 -0.65  0.35 -1.   -0.47  0.8
+  0.32  0.61 -0.27 -0.97 -0.24 -0.03 -0.93  0.13  0.67 -0.57 -0.46 -0.02
+  0.7   0.45  0.48 -0.68]
+[ 0.65   0.21   0.09   0.24   0.5   -0.86   0.62  -0.59   0.76  -0.43
+  0.88  -0.27  -0.07  -0.198  0.76   0.06  -0.88   0.49   0.71   0.61
+  0.78  -0.5   -0.2   -0.82  -0.63   0.98  -0.36  -0.36 ]
+[-0.7  -0.02 -0.01  0.42  0.97  0.62 -0.95 -0.49  0.59  0.92 -0.7  -0.96
+  0.89  0.81  0.45  0.11 -0.66  0.2   0.38  0.5  -0.29 -0.63  0.26 -0.03
+ -0.42 -0.07 -0.11 -0.79]
+[-0.73  -0.47  -0.1    0.56  -0.43  -0.025 -0.04  -0.35   0.47  -0.07
+ -0.59   0.76   0.98  -0.76   0.67   0.09   0.56  -0.94  -0.93   0.81
+  0.69   0.52  -0.46   0.04  -0.3    0.89   0.48  -0.6  ]
+[ 0.15   0.69   0.44  -0.34  -0.19  -0.88  -0.23   0.26   0.92  -0.88
+ -0.52   0.02  -0.34   0.701 -0.79   0.56  -0.121 -0.88   1.     0.76
+  0.49   0.17   0.21   0.4    0.62  -0.83  -0.31   0.36 ]
+[-0.73  -0.24   0.44  -0.22   0.5   -0.86   0.62   0.927  0.83  -0.1
+ -0.52  -0.96  -0.34   0.47  -0.79   0.84   0.25   0.208 -0.92   0.76
+  0.69   0.91  -0.28  -0.93  -0.63   0.98  -0.93  -0.6  ]
+##############        GENERATION 3  ###############
+fitness value of chromosome 0 :   30
+fitness value of chromosome 1 :   36
+fitness value of chromosome 2 :   126
+fitness value of chromosome 3 :   39
+fitness value of chromosome 4 :   36
+fitness value of chromosome 5 :   148
+fitness value of chromosome 6 :   146
+fitness value of chromosome 7 :   48
+fitness value of chromosome 8 :   56
+fitness value of chromosome 9 :   43
+fitness value of chromosome 10 :   36
+fitness value of chromosome 11 :   53
+fitness value of chromosome 12 :   38
+fitness value of chromosome 13 :   139
+fitness value of chromosome 14 :   34
+fitness value of chromosome 15 :   241
+fitness value of chromosome 16 :   44
+fitness value of chromosome 17 :   141
+fitness value of chromosome 18 :   145
+fitness value of chromosome 19 :   44
+fitness value of chromosome 20 :   145
+fitness value of chromosome 21 :   45
+fitness value of chromosome 22 :   58
+fitness value of chromosome 23 :   49
+fitness value of chromosome 24 :   244
+fitness value of chromosome 25 :   51
+fitness value of chromosome 26 :   44
+fitness value of chromosome 27 :   152
+fitness value of chromosome 28 :   26
+fitness value of chromosome 29 :   41
+fitness value of chromosome 30 :   52
+fitness value of chromosome 31 :   148
+fitness value of chromosome 32 :   46
+fitness value of chromosome 33 :   43
+fitness value of chromosome 34 :   150
+fitness value of chromosome 35 :   44
+fitness value of chromosome 36 :   9
+fitness value of chromosome 37 :   22
+fitness value of chromosome 38 :   25
+fitness value of chromosome 39 :   21
+fitness value of chromosome 40 :   30
+fitness value of chromosome 41 :   26
+fitness value of chromosome 42 :   51
+fitness value of chromosome 43 :   42
+fitness value of chromosome 44 :   42
+fitness value of chromosome 45 :   26
+fitness value of chromosome 46 :   134
+fitness value of chromosome 47 :   27
+fitness value of chromosome 48 :   39
+fitness value of chromosome 49 :   38
+#######  fittest chromosome in gneneration 3 is having fitness value:   244
+[-0.17  -0.24   0.44   0.096  0.5   -0.86   0.8    0.87   0.83  -0.88
+ -0.52  -0.96  -0.34  -0.76  -0.92   0.56  -0.43   0.208 -0.92   0.76
+  0.69   0.91  -0.2   -0.93  -0.63   0.98  -0.9    0.36 ]
+[-0.13  -0.34  -0.98   0.24   0.5   -0.86   0.62  -0.59   0.06   0.58
+  0.14   0.05  -0.58  -0.198 -0.72   0.01  -0.88   0.49   0.77   0.87
+  0.78  -0.5   -0.66  -0.879 -0.63   0.98  -0.36  -0.36 ]
+[-0.17  -0.47   0.44  -0.63  -0.43  -0.88  -0.04   0.26   0.92  -0.07
+ -0.59  -0.96  -0.34  -0.76  -0.79   0.09   0.56  -0.94  -0.93   0.81
+  0.69   0.52  -0.46   0.343  0.68  -0.83  -0.42   0.36 ]
+[-0.73 -0.7   0.44 -0.63 -0.19 -0.3   0.8   0.26  0.92 -0.88  0.94 -0.96
+ -0.34 -0.76 -0.79  0.01  0.25 -0.88 -0.92  0.03  0.49  0.91 -0.28  0.4
+ -0.63 -0.83 -0.42 -0.6 ]
+[-0.17  -0.7    0.44  -0.63  -0.19  -0.88  -0.23   0.26   0.92  -0.88
+  0.14  -0.96  -0.34   1.237 -0.79   0.01   0.32  -0.88   0.77   0.03
+  0.49   0.17   0.21   0.4    0.68  -0.83  -0.42   0.36 ]
+[ 0.65 -0.47  0.09  0.56  0.5  -0.86  0.62 -0.59  0.47 -0.07  0.88 -0.27
+ -0.07 -0.76  0.76  0.06 -0.88 -0.94  0.71  0.61  0.69  0.52 -0.46  0.88
+ -0.63  0.89 -0.36 -0.36]
+[ 0.16 -0.82 -0.1  -0.4   0.91  0.79  0.27 -0.65  0.35 -1.   -0.47  0.8
+  0.32  0.61 -0.27 -0.97 -0.24 -0.03 -0.93  0.13  0.67 -0.57 -0.46 -0.02
+  0.7   0.45  0.48 -0.68]
+[ 0.65   0.21  -0.01   0.24   0.5    0.62  -0.95  -0.59   0.59   0.92
+  0.88  -0.27   0.89   0.81  -0.331  0.11  -0.88   0.49   0.71   0.5
+  0.78  -0.63  -0.2   -0.82  -0.42   0.98  -0.11  -0.79 ]
+[-0.7   -0.02  -0.01   0.894  0.97   0.62  -0.95   0.927  0.59  -0.1
+ -0.52  -0.96   0.89   0.47  -0.79   0.11   0.25   0.2    0.38   0.76
+  0.69   0.91  -0.28  -0.93  -0.63  -0.07  -0.93  -0.79 ]
+[-0.73   0.21   0.44   0.24   0.5   -1.788  0.62  -0.59   0.76  -0.43
+ -0.52  -0.96  -0.07   0.47   0.76   0.06   0.25   0.208  0.71   0.61
+  0.78   0.91  -0.2   -0.82  -0.63   0.98  -0.93  -0.36 ]
+[-0.13  -0.34  -1.125  0.56  -0.43   0.83  -0.04  -0.35   0.47  -0.07
+  0.14   0.05  -0.58  -0.76  -0.72   0.01   0.56  -0.8   -0.93   0.87
+  0.69   0.52  -0.66  -0.64  -0.3   -0.83  -0.21  -0.17 ]
+[ 0.16  -0.02  -0.01   0.42   0.91   0.62   0.27  -0.65   0.845  0.92
+ -0.7   -0.96   0.32   0.81   0.45  -0.97  -0.66  -0.03   0.38   0.5
+ -0.29  -0.57  -0.46  -0.03   0.7   -0.07   0.48  -0.79 ]
+##############        GENERATION 4  ###############
+fitness value of chromosome 0 :   46
+fitness value of chromosome 1 :   43
+fitness value of chromosome 2 :   38
+fitness value of chromosome 3 :   38
+fitness value of chromosome 4 :   50
+fitness value of chromosome 5 :   43
+fitness value of chromosome 6 :   35
+fitness value of chromosome 7 :   135
+fitness value of chromosome 8 :   45
+fitness value of chromosome 9 :   28
+fitness value of chromosome 10 :   32
+fitness value of chromosome 11 :   37
+fitness value of chromosome 12 :   43
+fitness value of chromosome 13 :   130
+fitness value of chromosome 14 :   39
+fitness value of chromosome 15 :   36
+fitness value of chromosome 16 :   49
+fitness value of chromosome 17 :   34
+fitness value of chromosome 18 :   48
+fitness value of chromosome 19 :   8
+fitness value of chromosome 20 :   146
+fitness value of chromosome 21 :   140
+fitness value of chromosome 22 :   45
+fitness value of chromosome 23 :   25
+fitness value of chromosome 24 :   39
+fitness value of chromosome 25 :   33
+fitness value of chromosome 26 :   41
+fitness value of chromosome 27 :   25
+fitness value of chromosome 28 :   139
+fitness value of chromosome 29 :   42
+fitness value of chromosome 30 :   38
+fitness value of chromosome 31 :   41
+fitness value of chromosome 32 :   138
+fitness value of chromosome 33 :   42
+fitness value of chromosome 34 :   39
+fitness value of chromosome 35 :   27
+fitness value of chromosome 36 :   10
+fitness value of chromosome 37 :   50
+fitness value of chromosome 38 :   38
+fitness value of chromosome 39 :   245
+fitness value of chromosome 40 :   46
+fitness value of chromosome 41 :   45
+fitness value of chromosome 42 :   10
+fitness value of chromosome 43 :   39
+fitness value of chromosome 44 :   32
+fitness value of chromosome 45 :   43
+fitness value of chromosome 46 :   47
+fitness value of chromosome 47 :   21
+fitness value of chromosome 48 :   51
+fitness value of chromosome 49 :   43
+#######  fittest chromosome in gneneration 4 is having fitness value:   245
+[ 0.158 -0.34   0.44   0.56   0.5    0.83  -0.04   0.87   0.83  -0.07
+ -0.52  -0.96  -0.58  -0.76  -0.72   0.56  -0.43  -0.8   -0.93   0.87
+  0.69   0.91  -0.2   -0.93  -0.3    0.98  -0.21   0.36 ]
+[ 0.65  -0.47   0.44   0.24  -0.43  -0.88  -0.95   0.299  0.92   0.92
+ -0.59  -0.27   0.89  -0.76  -0.331  0.11  -0.88   0.49  -0.93   0.5
+  0.78  -0.63  -0.2    0.343  0.68   0.98  -0.42  -0.79 ]
+[-0.13   0.21  -1.125  0.56   0.149  0.83  -0.04  -0.35   0.76  -0.43
+ -0.52   0.05  -0.07  -0.76  -0.72   0.01   0.56  -0.8    0.71   0.61
+  0.69   0.52  -0.2   -0.82  -0.3    0.98  -0.21  -0.17 ]
+[-0.73 -0.82  0.44 -0.63  0.91  0.79  0.27  0.26  0.92 -0.88  0.94 -0.96
+  0.32  0.61 -0.27  0.01 -0.24 -0.51 -0.93  0.03  0.49  0.91 -0.28 -0.02
+  0.7  -0.83 -0.42 -0.68]
+[ 0.65   0.21  -0.01   0.24   0.5   -0.86   0.62  -0.59   0.47  -0.07
+  0.88   0.312 -0.07   0.81   0.76   0.11  -0.88  -0.94   0.71   0.5
+  0.69   0.52  -0.2   -0.82  -0.63   0.89  -0.36  -0.79 ]
+[ 0.65   0.21  -0.01   0.24   0.5    0.62  -0.95  -0.59   0.59   0.92
+  0.88  -0.27   0.89   0.81  -0.331  0.11  -0.88   0.49   0.71   0.5
+  0.78  -0.63  -0.2   -0.82  -0.42   0.98  -0.11  -0.79 ]
+[-0.73  -0.7    0.44  -0.63   0.5   -0.061  0.8   -0.59   0.92  -0.88
+  0.94  -0.96  -0.34  -0.76  -0.72   0.01  -0.88   0.49  -0.92   0.03
+  0.49  -0.5   -0.28  -0.879 -0.63  -0.83  -0.42  -0.6  ]
+[ 0.16 -0.02 -0.01  0.42  0.91  0.62  0.27 -0.65  0.59 -0.1  -0.6  -0.96
+  0.89  0.47 -0.79 -0.97 -0.66 -0.03  0.38  0.5   0.69 -0.57 -0.46 -0.93
+ -0.63 -0.07 -0.93 -0.79]
+[-0.17  -0.7    0.44  -0.63  -0.19  -0.88  -0.23   0.26   0.92  -0.88
+  0.14  -0.96  -0.34   1.237 -0.79   0.01   0.32  -0.88   0.77   0.03
+  0.49   0.17   0.21   0.4    0.68  -0.83  -0.42   0.36 ]
+[ 0.65  -0.47   0.44   0.56   0.5   -1.788  0.62  -0.59   0.76  -0.07
+ -0.52  -0.27  -0.07  -1.347  0.76   0.06   0.25   0.208  0.71   0.61
+  0.78   0.91  -0.46  -0.82  -0.63   0.89  -0.93  -0.36 ]
+[-0.17  -0.47  -0.1   -0.63  -0.43  -0.88   0.27   0.709  0.35  -1.
+ -0.59   0.8   -0.34   0.61  -0.79   0.09  -0.24  -0.03  -0.93   0.13
+  0.69  -0.57  -0.46  -0.02   0.68   0.45   0.48   0.36 ]
+[-0.73   0.21   0.44   0.24  -0.19  -0.3   -0.95  -0.59   0.59  -0.88
+  0.94  -0.96   0.699 -0.76  -0.331  0.11   0.25   0.49  -0.92   0.5
+  0.78  -0.63  -0.28  -0.82  -0.63   0.98  -0.42  -0.79 ]
+##############        GENERATION 5  ###############
+fitness value of chromosome 0 :   42
+fitness value of chromosome 1 :   43
+fitness value of chromosome 2 :   38
+fitness value of chromosome 3 :   335
+fitness value of chromosome 4 :   23
+fitness value of chromosome 5 :   43
+fitness value of chromosome 6 :   143
+fitness value of chromosome 7 :   42
+fitness value of chromosome 8 :   49
+fitness value of chromosome 9 :   48
+fitness value of chromosome 10 :   49
+fitness value of chromosome 11 :   38
+fitness value of chromosome 12 :   45
+fitness value of chromosome 13 :   46
+fitness value of chromosome 14 :   140
+fitness value of chromosome 15 :   41
+fitness value of chromosome 16 :   43
+fitness value of chromosome 17 :   34
+fitness value of chromosome 18 :   38
+fitness value of chromosome 19 :   138
+fitness value of chromosome 20 :   236
+fitness value of chromosome 21 :   258
+fitness value of chromosome 22 :   54
+fitness value of chromosome 23 :   38
+fitness value of chromosome 24 :   38
+fitness value of chromosome 25 :   43
+fitness value of chromosome 26 :   41
+fitness value of chromosome 27 :   49
+fitness value of chromosome 28 :   42
+fitness value of chromosome 29 :   42
+fitness value of chromosome 30 :   36
+fitness value of chromosome 31 :   38
+fitness value of chromosome 32 :   51
+fitness value of chromosome 33 :   32
+fitness value of chromosome 34 :   43
+fitness value of chromosome 35 :   35
+fitness value of chromosome 36 :   40
+fitness value of chromosome 37 :   29
+fitness value of chromosome 38 :   39
+fitness value of chromosome 39 :   41
+fitness value of chromosome 40 :   47
+fitness value of chromosome 41 :   46
+fitness value of chromosome 42 :   39
+fitness value of chromosome 43 :   47
+fitness value of chromosome 44 :   145
+fitness value of chromosome 45 :   50
+fitness value of chromosome 46 :   39
+fitness value of chromosome 47 :   36
+fitness value of chromosome 48 :   51
+fitness value of chromosome 49 :   33
+#######  fittest chromosome in gneneration 5 is having fitness value:   335
+[-0.73 -0.82  0.44 -0.63  0.91  0.79  0.27  0.26  0.92 -0.88  0.94 -0.96
+  0.32  0.61 -0.27  0.01 -0.24 -0.51 -0.93  0.03  0.49  0.91 -0.28 -0.02
+  0.7  -0.83 -0.42 -0.68]
+[ 0.158 -0.34   0.44   0.24  -0.19  -0.3   -0.95   0.87   0.59  -0.07
+  0.94  -0.96  -0.58  -0.76  -0.331  0.56  -0.43   1.477 -0.93   0.87
+  0.78  -0.63  -0.28  -0.93  -0.3    0.98  -0.21  -0.79 ]
+[-0.73  -0.82  -0.01  -0.481  0.91  -0.86   0.27   0.26   0.47  -0.88
+  0.88   0.312 -0.07   0.61  -0.27   0.01  -0.88  -0.51   0.71   0.5
+  0.69   0.52  -0.28  -0.82  -0.63   0.89  -0.36  -0.79 ]
+[-0.17  -0.47   0.44  -0.63  -0.19  -0.3    0.27  -0.59   0.59  -1.
+ -0.59  -0.96   0.699  0.61  -0.331  0.11   0.25   0.49  -0.92   0.5
+  0.78  -0.57  -0.28  -0.02  -0.63   0.45  -0.42   0.009]
+[-0.73  -0.7    0.44  -0.63   0.5   -0.061  0.8   -0.59   0.92  -0.88
+  0.94  -0.96  -0.34  -0.76  -0.72   0.01  -0.88   0.49  -0.92   0.03
+  0.49  -0.5   -0.28  -0.879 -0.63  -0.83  -0.42  -0.6  ]
+[-0.13   0.21  -1.125 -0.63   0.149  0.83  -0.04  -0.35   0.76  -0.43
+ -0.59   0.05  -0.34  -0.76  -0.72  -0.783  0.56  -0.03   0.71   0.61
+  0.69  -0.57  -0.2   -0.02   0.68   0.45   0.48  -0.17 ]
+[ 0.65  -0.47  -0.01   0.24   0.5   -0.86   0.27  -0.59   0.47  -0.07
+  0.88   0.8   -0.34   0.81   0.76   0.09  -0.24  -0.03   0.71   0.5
+  0.69  -0.57  -0.46  -0.02   0.305  0.89   0.48  -0.79 ]
+[ 0.158 -0.34  -0.01   0.42   0.91   0.83  -0.04  -0.65   0.59  -0.1
+ -0.174 -0.96  -0.58  -0.76  -0.79  -0.97  -0.43  -0.8    0.38   0.87
+  0.69  -0.57  -0.2   -0.93  -0.3    0.98  -0.93  -0.79 ]
+[ 0.65  -0.47   0.44   0.56   0.5   -1.788 -0.04  -0.22   0.76  -0.07
+ -0.52   0.05  -0.07  -0.76   0.76   0.06   0.25   0.208  0.71   0.61
+  0.69   0.52  -0.2   -0.82  -0.63   0.98  -0.21  -0.36 ]
+[ 0.65  -0.47   0.44  -0.63  -0.43  -0.88  -0.95  -0.59   0.92   0.92
+  1.582 -0.27  -0.34  -0.76  -0.72   0.01  -0.88   0.49  -0.92   0.03
+  0.78  -0.63  -0.2    0.343  0.68  -0.83  -0.42  -0.6  ]
+[ 0.65   0.21  -0.01   0.24   0.5   -0.061 -0.95  -0.59   0.92  -0.88
+  1.017 -0.27  -0.34   0.81  -0.72   0.11  -0.88   0.49   0.71   0.03
+  0.78  -0.5   -0.28  -0.82  -0.42  -0.83  -0.42  -0.79 ]
+[-0.17  -0.7    0.44  -0.63  -0.19  -0.88  -0.23   0.26   0.92  -0.88
+  0.14  -0.96  -0.34   1.237 -0.79   0.01   0.32  -0.88   0.77   0.03
+  0.49   0.17   0.21   0.4    0.68  -0.83  -0.42   0.36 ]
+##############        GENERATION 6  ###############
+fitness value of chromosome 0 :   141
+fitness value of chromosome 1 :   41
+fitness value of chromosome 2 :   35
+fitness value of chromosome 3 :   43
+fitness value of chromosome 4 :   135
+fitness value of chromosome 5 :   36
+fitness value of chromosome 6 :   238
+fitness value of chromosome 7 :   39
+fitness value of chromosome 8 :   39
+fitness value of chromosome 9 :   41
+fitness value of chromosome 10 :   32
+fitness value of chromosome 11 :   36
+fitness value of chromosome 12 :   142
+fitness value of chromosome 13 :   37
+fitness value of chromosome 14 :   37
+fitness value of chromosome 15 :   42
+fitness value of chromosome 16 :   41
+fitness value of chromosome 17 :   39
+fitness value of chromosome 18 :   47
+fitness value of chromosome 19 :   245
+fitness value of chromosome 20 :   149
+fitness value of chromosome 21 :   41
+fitness value of chromosome 22 :   143
+fitness value of chromosome 23 :   39
+fitness value of chromosome 24 :   35
+fitness value of chromosome 25 :   128
+fitness value of chromosome 26 :   138
+fitness value of chromosome 27 :   45
+fitness value of chromosome 28 :   34
+fitness value of chromosome 29 :   46
+fitness value of chromosome 30 :   36
+fitness value of chromosome 31 :   44
+fitness value of chromosome 32 :   43
+fitness value of chromosome 33 :   44
+fitness value of chromosome 34 :   131
+fitness value of chromosome 35 :   37
+fitness value of chromosome 36 :   39
+fitness value of chromosome 37 :   43
+fitness value of chromosome 38 :   41
+fitness value of chromosome 39 :   40
+fitness value of chromosome 40 :   38
+fitness value of chromosome 41 :   139
+fitness value of chromosome 42 :   231
+fitness value of chromosome 43 :   46
+fitness value of chromosome 44 :   155
+fitness value of chromosome 45 :   42
+fitness value of chromosome 46 :   41
+fitness value of chromosome 47 :   38
+fitness value of chromosome 48 :   35
+fitness value of chromosome 49 :   44
+#######  fittest chromosome in gneneration 6 is having fitness value:   245
+[ 0.65  -0.7   -0.01   0.24   0.5   -0.061  0.8   -1.318  0.92  -0.88
+  0.94  -0.96  -0.34   0.81  -0.72   0.01  -0.88   0.49  -0.92   0.03
+  0.78  -0.5   -0.28  -0.82  -0.42  -0.83  -0.42  -0.6  ]
+[ 0.65  -0.47  -0.01   0.24   0.5   -0.86   0.27  -0.59   0.47  -0.07
+  0.88   0.8   -0.34   0.81   0.76   0.09  -0.24  -0.03   0.71   0.5
+  0.69  -0.57  -0.46  -0.02   0.305  0.89   0.48  -0.79 ]
+[-0.17  -0.47   0.44   0.24  -0.19  -0.88   0.27  -0.59   0.92  -0.07
+  0.88   0.8   -0.34   1.237  0.76   0.01   0.32  -0.88   0.77   0.5
+  0.69   0.17   0.21   0.283  0.68  -0.83  -0.42   0.36 ]
+[-0.73  -0.82  -0.01   0.24   0.5    0.79   0.27   0.26   0.47  -0.88
+  0.88   0.8    0.32   0.61  -0.27  -0.979 -0.24  -0.51  -0.93   0.5
+  0.49   0.91  -0.28  -0.02   0.305  0.89  -0.42  -0.79 ]
+[-0.73  -0.82  -0.01  -0.481  0.91   0.83  -0.04   0.26   0.47  -0.88
+ -0.59   0.312 -0.07  -0.76  -0.72   0.01   0.56  -0.03   0.71   0.61
+  0.69   0.52  -0.2    0.004 -0.63   0.45   0.48  -0.17 ]
+[ 0.158  0.21  -0.01   0.42   0.91   0.83  -0.04  -0.59   0.59  -0.1
+  1.017 -0.27  -0.58   0.81  -0.72  -0.97  -0.88   0.49  -0.343  0.03
+  0.69  -0.57  -0.28  -0.82  -0.3   -0.83  -0.93  -0.79 ]
+[-0.73  -0.34   0.44  -0.63  -0.19   0.662 -0.95   0.26   0.59  -0.07
+  0.94  -0.96   0.32  -0.76  -0.331  0.56  -0.43   1.477 -0.93   0.03
+  0.78   0.91  -0.28  -0.02   0.7   -0.83  -0.42  -0.79 ]
+[-0.73 -0.82  0.44 -0.63  0.91  0.79  0.27  0.26  0.92 -0.88  0.94 -0.96
+  0.32  0.61 -0.27  0.01 -0.24 -0.51 -0.93  0.03  0.49  0.91 -0.28 -0.02
+  0.7  -0.83 -0.42 -0.68]
+[-0.17  -0.34  -0.01   0.42  -0.19  -0.3    0.27  -0.59   0.59  -0.1
+ -0.59  -0.96  -0.58   0.61  -0.331  0.11   0.25   0.49  -0.92   0.87
+  0.78  -0.57  -0.2   -0.93  -0.63   0.45  -0.93  -0.748]
+[ 0.831 -0.82   0.44  -0.63   0.91   0.79   0.27   0.26   0.92   0.92
+  0.94  -0.96   0.32  -0.76  -0.72   0.01  -0.88  -0.51  -0.92   0.03
+  0.49   0.91  -0.2   -0.02   0.68  -0.83  -0.42  -0.68 ]
+[-0.73  -0.7    0.44  -0.63   0.5   -0.061  0.8   -0.59   0.92  -0.88
+  0.94  -0.96  -0.34  -0.76  -0.72   0.01  -0.88   0.49  -0.92   0.03
+  0.49  -0.5   -0.28  -0.879 -0.63  -0.83  -0.42  -0.6  ]
+[-0.73  -0.82  -0.01  -0.481  0.91  -0.86  -0.04   0.26   0.47  -0.88
+ -0.59   0.05  -0.07  -0.76  -0.27  -0.783 -0.88  -0.51   0.71   0.5
+  0.69  -0.57  -0.2   -0.82   0.68   0.37   0.48  -0.79 ]
+##############        GENERATION 7  ###############
+fitness value of chromosome 0 :   39
+fitness value of chromosome 1 :   48
+fitness value of chromosome 2 :   140
+fitness value of chromosome 3 :   31
+fitness value of chromosome 4 :   40
+fitness value of chromosome 5 :   37
+fitness value of chromosome 6 :   237
+fitness value of chromosome 7 :   49
+fitness value of chromosome 8 :   146
+fitness value of chromosome 9 :   148
+fitness value of chromosome 10 :   44
+fitness value of chromosome 11 :   53
+fitness value of chromosome 12 :   43
+fitness value of chromosome 13 :   45
+fitness value of chromosome 14 :   44
+fitness value of chromosome 15 :   41
+fitness value of chromosome 16 :   26
+fitness value of chromosome 17 :   132
+fitness value of chromosome 18 :   53
+fitness value of chromosome 19 :   47
+fitness value of chromosome 20 :   46
+fitness value of chromosome 21 :   27
+fitness value of chromosome 22 :   31
+fitness value of chromosome 23 :   36
+fitness value of chromosome 24 :   31
+fitness value of chromosome 25 :   47
+fitness value of chromosome 26 :   42
+fitness value of chromosome 27 :   142
+fitness value of chromosome 28 :   38
+fitness value of chromosome 29 :   136
+fitness value of chromosome 30 :   47
+fitness value of chromosome 31 :   45
+fitness value of chromosome 32 :   138
+fitness value of chromosome 33 :   44
+fitness value of chromosome 34 :   41
+fitness value of chromosome 35 :   43
+fitness value of chromosome 36 :   38
+fitness value of chromosome 37 :   28
+fitness value of chromosome 38 :   228
+fitness value of chromosome 39 :   40
+fitness value of chromosome 40 :   41
+fitness value of chromosome 41 :   41
+fitness value of chromosome 42 :   45
+fitness value of chromosome 43 :   39
+fitness value of chromosome 44 :   44
+fitness value of chromosome 45 :   131
+fitness value of chromosome 46 :   35
+fitness value of chromosome 47 :   40
+fitness value of chromosome 48 :   35
+fitness value of chromosome 49 :   135
+#######  fittest chromosome in gneneration 7 is having fitness value:   237
+[-0.73  -0.34   0.44  -0.63  -0.19   0.662 -0.95   0.26   0.59  -0.07
+  0.94  -0.96   0.32  -0.76  -0.331  0.56  -0.43   1.477 -0.93   0.03
+  0.78   0.91  -0.28  -0.02   0.7   -0.83  -0.42  -0.79 ]
+[-0.173 -0.34   0.44   0.24   0.5   -0.061 -0.95  -1.318  0.92  -0.88
+  0.94  -0.96  -0.34  -0.76  -0.72   0.56  -0.43   1.477 -0.92   0.03
+  0.78  -0.5   -0.28  -0.02  -0.42  -0.83  -0.42  -0.6  ]
+[ 0.831 -0.82   0.44  -0.63   0.91   0.79   0.27   0.26   0.92   0.92
+  0.94  -0.96   0.32  -0.76  -0.72   0.01  -0.88  -0.51  -0.92   0.03
+  0.49   0.91  -0.2   -0.02   0.68  -0.83  -0.42  -0.68 ]
+[-0.17  -0.34  -0.01   0.42  -0.19  -0.3    0.27  -0.59   0.59  -0.1
+ -0.59  -0.96  -0.58   0.61  -0.331  0.11   0.25   0.49  -0.92   0.87
+  0.78  -0.57  -0.2   -0.93  -0.63   0.45  -0.93  -0.748]
+[-0.17  -0.34   0.44   0.42  -0.19   0.662  0.27   0.26   0.59  -0.1
+ -0.59  -0.96  -0.58  -0.76  -0.331  0.11   0.25   0.49  -0.93   0.87
+  0.78  -0.57  -0.28  -0.93   0.7   -0.83  -0.93  -0.158]
+[-0.17  -0.47   0.44   0.24  -0.19  -0.88   0.27  -0.59   0.92  -0.07
+  0.88   0.8   -0.34   1.237  0.76   0.01   0.32  -0.88   0.77   0.5
+  0.69   0.17   0.21   0.283  0.68  -0.83  -0.42   0.36 ]
+[ 0.158  0.21   0.44   0.42   0.91   0.662 -0.04  -0.59   1.001 -0.07
+  0.94  -0.96  -0.58   0.81  -0.331 -0.97  -0.88   0.49  -0.343  0.03
+  0.78   0.91  -0.28  -0.82  -0.3   -0.83  -0.93  -0.79 ]
+[-0.73  -0.82  -0.01  -0.481  0.91   0.79   0.27   0.26   0.47  -0.88
+ -0.59   0.8   -0.07   0.61  -0.72   0.099 -0.24  -0.03  -0.93   0.5
+  0.49   0.52  -0.28   0.004 -0.63   0.89   0.48  -0.17 ]
+[ 0.158  0.21  -0.01   0.42   0.91   0.79   0.27   0.26   0.92   0.92
+  0.94  -0.27  -0.58   0.81  -0.72  -0.97  -0.88  -0.51  -0.92   0.03
+  0.49  -0.57  -0.1   -0.82   0.68  -0.83  -0.42  -0.68 ]
+[-0.73  -0.47   0.058  0.24   0.5    0.79   0.27   0.26   0.92  -0.88
+  0.88   0.8    0.32   1.237 -0.27  -0.979 -0.24  -0.51  -0.93   0.5
+  0.49   0.17  -0.28  -0.02   0.68   0.89  -0.42  -0.79 ]
+[ 0.158 -0.82  -0.01   0.42   0.91   0.83   0.27  -0.59   0.92   0.92
+  1.017 -0.27  -0.58   0.81  -0.72  -0.97  -0.88   0.49  -0.92   0.03
+  0.69   0.91  -0.2   -0.892  0.68  -0.83  -0.42  -0.79 ]
+[-0.73  -0.82  -0.01  -0.481  0.91  -0.86  -0.04   0.26   0.47  -0.88
+ -0.59   0.05  -0.07  -0.76  -0.27  -0.783 -0.88  -0.51   0.71   0.5
+  0.69  -0.57  -0.2   -0.82   0.68   0.37   0.48  -0.79 ]
+##############        GENERATION 8  ###############
+fitness value of chromosome 0 :   37
+fitness value of chromosome 1 :   339
+fitness value of chromosome 2 :   46
+fitness value of chromosome 3 :   46
+fitness value of chromosome 4 :   53
+fitness value of chromosome 5 :   38
+fitness value of chromosome 6 :   41
+fitness value of chromosome 7 :   150
+fitness value of chromosome 8 :   48
+fitness value of chromosome 9 :   44
+fitness value of chromosome 10 :   41
+fitness value of chromosome 11 :   45
