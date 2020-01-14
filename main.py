@@ -3,27 +3,19 @@ from game_config import *
 from play_with_ml import *
 from genetic_algorithm import *
 
-'''
-To-Do List
-1. Create all possible permutations for each piece
-2. Create function for all possible combinations
-3. Create function to create score for each decision
-4. Finish up genetic algorithm functions
-5. Test
-'''
-
 # TRAIN or PLAY
-MODE = 'PLAY'
-start_over = True
+MODE = 'TRAIN'
+start_over = False
 
 def train():
+    # initial variables
     sol_per_pop = 50
-    num_inputs = 7
-    num_outputs = 4
-    num_weights = num_inputs * num_outputs
+    num_weights = 4
 
     pop_size = (sol_per_pop, num_weights)
     new_population = np.random.choice(np.arange(-1,1,step=0.01),size=pop_size,replace=True)
+
+    start_gen = 0
     
     if start_over == False:
         parents = np.asarray(last_gen)
@@ -31,15 +23,17 @@ def train():
         offspring_mutation = mutation(offspring_crossover)
         new_population[0:parents.shape[0], :] = parents
         new_population[parents.shape[0]:, :] = offspring_mutation
+        start_gen = 5
 
     num_generations = 100
     num_parents_mating = 12
 
-    for generation in range(num_generations):
+    # use genetic algorithm for every generation
+    for generation in range(start_gen,num_generations):
         print('##############        GENERATION ' + str(generation)+ '  ###############' )
         # Measuring the fitness of each chromosome in the population.
         fitness = cal_pop_fitness(new_population)
-        print('#######  fittest chromosome in gneneration ' + str(generation) +' is having fitness value:  ', np.max(fitness))
+        print('#######  fittest chromosome in generation ' + str(generation) +' is having fitness value:  ', np.max(fitness))
         # Selecting the best parents in the population for mating.
         parents = select_mating_pool(new_population, fitness, num_parents_mating)
 
@@ -54,11 +48,12 @@ def train():
         new_population[parents.shape[0]:, :] = offspring_mutation
 
 def play():
-    weights = [0] * 28
+    # weights from previous training
+    weights = [-0.36,-0.51, 0.76, -0.18]
     run_game(weights, display=True)
 
 if __name__ == "__main__":
-    if MODE = 'TRAIN':
+    if MODE == 'TRAIN':
         train()
-    elif MODE = 'PLAY':
+    elif MODE == 'PLAY':
         play()

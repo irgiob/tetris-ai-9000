@@ -2,6 +2,7 @@
 from play_with_ml import *
 import random
 
+# calculate fitness score by playing the game
 def cal_pop_fitness(pop):
     fitness = []
     for i in range(pop.shape[0]):
@@ -27,7 +28,6 @@ def crossover(parents, offspring_size):
     offspring = np.empty(offspring_size)
     
     for k in range(offspring_size[0]): 
-  
         while True:
             parent1_idx = random.randint(0, parents.shape[0] - 1)
             parent2_idx = random.randint(0, parents.shape[0] - 1)

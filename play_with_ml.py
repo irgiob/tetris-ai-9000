@@ -1,9 +1,5 @@
 import numpy as np
-from mss import mss
-from PIL import Image
-import cv2
 import time
-from pynput.keyboard import Key, Controller
 from game_config import *
 from get_game_data import *
 
@@ -12,49 +8,62 @@ stay_alive_score = 0.1
 
 def run_game(pop, display=False):
     # general initializations
-    sct = mss()
     last_time = time.time()
-    last_val = [0,0,0]
-    
     fitness = 0
     lines_cleared = 0
-
     press_key('space')
     time.sleep(3.5)
 
     while True:
-        # scren capture main game area and next piece area
-        sct_main = sct.grab(main_game)
-        img_main = np.array(Image.frombytes("RGB", sct_main.size, sct_main.bgra, "raw", "BGRX"))
-        next_img_list = [0,0,0]
-        for i in range(NUM_NEXT):
-            sct_next = sct.grab(next_piece)
-            next_img_list[i] = Image.frombytes("RGB", sct_next.size, sct_next.bgra, "raw", "BGRX")
-            next_piece['top'] += NEXT_HEIGHT
-        next_piece['top'] = NEXT_START
+        game_data, next_val_dict = get_raw_data()
+        direction = left_or_right(game_data)
+        opp_direction = OPP_DIR[direction]
+        moves = ['up',opp_direction]
 
-        # get game data (game-state, next pieces, lines cleared, and FPS)
-        game_data, next_val_dict = image_to_game_data(img_main, next_img_list)
-        fps = 1/(time.time()-last_time)
-        last_time = time.time()
+        scores = [0]
+        # loop through all possible moves
+        for i in range(4):
+            for move in moves:
+                # breaks loop if game over
+                for val in next_val_dict:
+                    if not (val in tetromino_str):
+                        return int(fitness)
 
-        # breaks loop if game over
-        for val in next_val_dict:
-            if not (val in tetromino_str):
-                return int(fitness)
-        
-        cleared_now = check_line_clear(game_data)
-        lines_cleared += cleared_now
-        fitness += score_per_line * cleared_now + stay_alive_score
+                # get FPS and increase fitness score for staying alive
+                fps = 1/(time.time()-last_time)
+                last_time = time.time()
+                fitness += stay_alive_score
 
-        heuristics = calc_heuristics(game_data, lines_cleared)
-        decision = make_decision(pop, heuristics, next_val_dict)
-        press_key(decision)
+                # check is line clears
+                cleared_now = check_line_clear(game_data)
+                if cleared_now > 0:
+                    print('Cleared Line!')
+                    lines_cleared += cleared_now
+                    fitness += score_per_line * cleared_now
+                    time.sleep(1)
+                    break
 
-        #displays game data in terminal
-        if display == True:
-            print(display_game(game_data, fps, next_val_dict, tetromino_str, lines_cleared))
-            print(calc_heuristics(game_data,lines_cleared))
+                # calculate heuristic and store score of move
+                heuristics = calc_heuristics(game_data, lines_cleared)
+                scores.append(calc_score(heuristics,pop))
+
+                #displays game data in terminal
+                if display == True:
+                    print(display_game(game_data, fps, next_val_dict, tetromino_str, lines_cleared))
+                    print(calc_heuristics(game_data,lines_cleared))
+
+                # move on to next move and get data
+                press_key(move)
+                game_data, next_val_dict = get_raw_data()
+            if cleared_now > 0:
+                break
+        # get the best move and recreate it
+        best = scores.index(max(scores))
+        if best % 2 == 1:
+            press_key('up')
+        for i in range(best//2):
+            press_key(opp_direction)
+            
     # returns lines cleared as the fitness score
     return int(fitness)
 
@@ -90,22 +99,6 @@ def display_game(game_data, fps, next_val_dict, tetromino_str, lines_cleared):
     game_disp += f' {tetromino_str[next_val_dict[1]]} | '
     game_disp += f' {tetromino_str[next_val_dict[2]]}\n'
     return game_disp
-
-# keyboard controlling commands for next phase
-def press_key(key):
-    keyboard = Controller()
-    if key == 'left':
-        keyboard.press(Key.left)
-        keyboard.release(Key.left)
-    elif key == 'up':
-        keyboard.press(Key.up)
-        keyboard.release(Key.up)
-    elif key == 'right':
-        keyboard.press(Key.right)
-        keyboard.release(Key.right)
-    elif key == 'space':
-        keyboard.press(Key.space)
-        keyboard.release(Key.space)
 
 '''
 # DIAGNOSTICS: Display screen capture

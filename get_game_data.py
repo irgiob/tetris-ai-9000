@@ -1,6 +1,24 @@
 from game_config import *
+from mss import mss
+from PIL import Image
+import cv2
 import numpy as np
+from pynput.keyboard import Key, Controller
 from math import tan
+
+def get_raw_data():
+    # scren capture main game area and next piece area and get game data
+    sct = mss()
+    sct_main = sct.grab(main_game)
+    img_main = np.array(Image.frombytes("RGB", sct_main.size, sct_main.bgra, "raw", "BGRX"))
+    next_img_list = [0,0,0]
+    for i in range(NUM_NEXT):
+        sct_next = sct.grab(next_piece)
+        next_img_list[i] = Image.frombytes("RGB", sct_next.size, sct_next.bgra, "raw", "BGRX")
+        next_piece['top'] += NEXT_HEIGHT
+    next_piece['top'] = NEXT_START
+    game_data, next_val_dict = image_to_game_data(img_main, next_img_list)
+    return game_data, next_val_dict
 
 def image_to_game_data(img_data, next_img_list):
     # encode image data into digital reconstruction of game
@@ -18,15 +36,12 @@ def image_to_game_data(img_data, next_img_list):
     next_val_dict = [len(img.getcolors(MAX_PAL)) for img in next_img_list]
     return game_data, next_val_dict
 
-def make_decision(p, h, n):
-    decision_map = {0:'left',1:'up',2:'right',3:'none'}
-    decision = [0,0,0,0]
-    index = 0
-    for i in range(0,len(p),7):
-        decision[index]+=p[i]*h['H']+p[i+1]*h['AH']+p[i+2]*h['LC']+p[i+3]*h['B']+p[i+4]*tan(n[0])+p[i+5]*tan(n[1])+p[i+6]*tan(n[2])
-        index += 1
-    return decision_map[decision.index(max(decision))]
+# calculate the score of potential move based on heuristics and weights
+def calc_score(h, p):
+    score=p[0]*h['H']+p[1]*h['AH']+p[2]*h['LC']+p[3]*h['B']
+    return score
 
+# calc heuristics for identifying whether a certain move is good or bad
 def calc_heuristics(game_data, lines_cleared):
     holes = 0
     heights = [0,0,0,0,0,0,0,0,0,0]
@@ -43,8 +58,40 @@ def calc_heuristics(game_data, lines_cleared):
     bumpiness = calc_bumpiness(heights)
     return {'H': holes, 'AH': aggregate_height, 'LC': lines_cleared, 'B':bumpiness}
 
+# calculate bumpiness of game data
 def calc_bumpiness(heights):
     bumpiness = 0
     for i in range(len(heights)-1):
         bumpiness += abs(heights[i] - heights[i+1])
     return bumpiness
+
+# choose whether to move left or right based on how full each side is
+def left_or_right(game_data):
+    left = 0
+    right = 0
+    for i in range(GAME_DIM[0]):
+        left += sum(game_data[i][:5])
+        right += sum(game_data[i][5:])
+    if left >= right:
+        direction = 'right'
+    else:
+        direction = 'left'
+    for i in range(4):
+        press_key(direction)
+    return direction
+
+# keyboard controlling commands for next phase
+def press_key(key):
+    keyboard = Controller()
+    if key == 'left':
+        keyboard.press(Key.left)
+        keyboard.release(Key.left)
+    elif key == 'up':
+        keyboard.press(Key.up)
+        keyboard.release(Key.up)
+    elif key == 'right':
+        keyboard.press(Key.right)
+        keyboard.release(Key.right)
+    elif key == 'space':
+        keyboard.press(Key.space)
+        keyboard.release(Key.space)
