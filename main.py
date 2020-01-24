@@ -23,7 +23,7 @@ def train():
         offspring_mutation = mutation(offspring_crossover)
         new_population[0:parents.shape[0], :] = parents
         new_population[parents.shape[0]:, :] = offspring_mutation
-        start_gen = 5
+        start_gen = 9
 
     num_generations = 100
     num_parents_mating = 12
@@ -49,7 +49,7 @@ def train():
 
 def play():
     # weights from previous training
-    weights = [-0.36,-0.51, 0.76, -0.18]
+    weights = [-0.859, -2.064, -0.502, -0.413]
     run_game(weights, display=True)
 
 if __name__ == "__main__":

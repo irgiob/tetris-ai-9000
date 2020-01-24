@@ -4,65 +4,83 @@ from game_config import *
 from get_game_data import *
 
 score_per_line = 100
-stay_alive_score = 0.1
+stay_alive_score = 1
 
 def run_game(pop, display=False):
     # general initializations
     last_time = time.time()
     fitness = 0
     lines_cleared = 0
-    press_key('space')
-    time.sleep(3.5)
+    press_space()
+    time.sleep(2)
+
+    game_data, next_val_dict = get_raw_data()
+    last_val_dict = next_val_dict
+    while last_val_dict == next_val_dict:
+        last_val_dict = next_val_dict
+        game_data, next_val_dict = get_raw_data()
 
     while True:
+        col = 1
+        # initialization for every piece
+        mouse_set((284,265))
+        time.sleep(0.05)
         game_data, next_val_dict = get_raw_data()
-        direction = left_or_right(game_data)
-        opp_direction = OPP_DIR[direction]
-        moves = ['up',opp_direction]
+        last_val_dict = next_val_dict
+        scores = []
+        skip_check = False
+        fitness += stay_alive_score
 
-        scores = [0]
         # loop through all possible moves
-        for i in range(4):
-            for move in moves:
-                # breaks loop if game over
-                for val in next_val_dict:
-                    if not (val in tetromino_str):
-                        return int(fitness)
+        for i in range(9):
 
-                # get FPS and increase fitness score for staying alive
-                fps = 1/(time.time()-last_time)
-                last_time = time.time()
-                fitness += stay_alive_score
+            # breaks loop if game over
+            for val in next_val_dict:
+                if not (val in tetromino_str):
+                    return int(fitness)
 
-                # check is line clears
-                cleared_now = check_line_clear(game_data)
-                if cleared_now > 0:
-                    print('Cleared Line!')
-                    lines_cleared += cleared_now
-                    fitness += score_per_line * cleared_now
-                    time.sleep(1)
-                    break
-
-                # calculate heuristic and store score of move
-                heuristics = calc_heuristics(game_data, lines_cleared)
-                scores.append(calc_score(heuristics,pop))
-
-                #displays game data in terminal
-                if display == True:
-                    print(display_game(game_data, fps, next_val_dict, tetromino_str, lines_cleared))
-                    print(calc_heuristics(game_data,lines_cleared))
-
-                # move on to next move and get data
-                press_key(move)
-                game_data, next_val_dict = get_raw_data()
-            if cleared_now > 0:
+            # checks for overlap issue
+            if next_val_dict != last_val_dict:
+                skip_check = True
                 break
+
+            # get FPS
+            fps = 1/(time.time()-last_time)
+            last_time = time.time()
+
+            # check is line clears
+            cleared_now = check_line_clear(game_data)
+            if cleared_now > 0:
+                lines_cleared += cleared_now
+                fitness += score_per_line * cleared_now
+                skip_check = True
+                mouse_click()
+                time.sleep(0.05)
+                break
+
+            # calculate heuristic and store score of move
+            heuristics = calc_heuristics(game_data, cleared_now)
+            scores.append(calc_score(heuristics,pop))
+
+            #displays game data in terminal
+            if display == True:
+                print(display_game(game_data, fps, next_val_dict, tetromino_str, lines_cleared))
+                print(calc_heuristics(game_data,cleared_now))
+
+            # move on to next move and get data
+            mouse_move((26,0))
+            time.sleep(0.05)
+            game_data, next_val_dict = get_raw_data()
+        
+        heuristics = calc_heuristics(game_data, cleared_now)
+        scores.append(calc_score(heuristics,pop))
+
         # get the best move and recreate it
-        best = scores.index(max(scores))
-        if best % 2 == 1:
-            press_key('up')
-        for i in range(best//2):
-            press_key(opp_direction)
+        if skip_check == False:
+            best = scores.index(max(scores))
+            mouse_set((284+26*best,265)) 
+            mouse_click()
+            time.sleep(0.05)
             
     # returns lines cleared as the fitness score
     return int(fitness)
@@ -80,9 +98,6 @@ def check_line_clear(game_data):
         time.sleep(0.5)
     return lines_cleared
 
-def get_all_permutations(game_data, next_val_dict):
-    pass
-
 # prints game status to terminal in a readable format
 def display_game(game_data, fps, next_val_dict, tetromino_str, lines_cleared):
     game_disp = ''
@@ -99,16 +114,3 @@ def display_game(game_data, fps, next_val_dict, tetromino_str, lines_cleared):
     game_disp += f' {tetromino_str[next_val_dict[1]]} | '
     game_disp += f' {tetromino_str[next_val_dict[2]]}\n'
     return game_disp
-
-'''
-# DIAGNOSTICS: Display screen capture
-if SHOW_GAME:
-    cv2.namedWindow('main_game', cv2.WINDOW_NORMAL)
-    cv2.moveWindow('main_game',800,50)
-    cv2.imshow('main_game', cv2.cvtColor(np.array(img_main), cv2.COLOR_BGR2RGB))
-
-# deactivate screen display
-if cv2.waitKey(25) & 0xFF == ord('q'):
-    cv2.destroyAllWindows()
-    break
-'''

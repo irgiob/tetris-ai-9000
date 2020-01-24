@@ -44,12 +44,9 @@ def crossover(parents, offspring_size):
 
 def mutation(offspring_crossover):
     # mutating the offsprings generated from crossover to maintain variation in the population
-    
     for idx in range(offspring_crossover.shape[0]):
         for _ in range(25):
             i = random.randint(0,offspring_crossover.shape[1]-1)
-    
         random_value = np.random.choice(np.arange(-1,1,step=0.001),size=(1),replace=False)
         offspring_crossover[idx, i] = offspring_crossover[idx, i] + random_value
-
     return offspring_crossover

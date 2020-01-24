@@ -3,7 +3,8 @@ from mss import mss
 from PIL import Image
 import cv2
 import numpy as np
-from pynput.keyboard import Key, Controller
+import pynput.keyboard as pyk
+import pynput.mouse as pym
 from math import tan
 
 def get_raw_data():
@@ -39,6 +40,7 @@ def image_to_game_data(img_data, next_img_list):
 # calculate the score of potential move based on heuristics and weights
 def calc_score(h, p):
     score=p[0]*h['H']+p[1]*h['AH']+p[2]*h['LC']+p[3]*h['B']
+    score = round(score,2)
     return score
 
 # calc heuristics for identifying whether a certain move is good or bad
@@ -65,33 +67,25 @@ def calc_bumpiness(heights):
         bumpiness += abs(heights[i] - heights[i+1])
     return bumpiness
 
-# choose whether to move left or right based on how full each side is
-def left_or_right(game_data):
-    left = 0
-    right = 0
-    for i in range(GAME_DIM[0]):
-        left += sum(game_data[i][:5])
-        right += sum(game_data[i][5:])
-    if left >= right:
-        direction = 'right'
-    else:
-        direction = 'left'
-    for i in range(4):
-        press_key(direction)
-    return direction
+# keyboard & mouse controlling commands
+def press_space():
+    keyboard = pyk.Controller()
+    keyboard.press(pyk.Key.space)
+    keyboard.release(pyk.Key.space)
 
-# keyboard controlling commands for next phase
-def press_key(key):
-    keyboard = Controller()
-    if key == 'left':
-        keyboard.press(Key.left)
-        keyboard.release(Key.left)
-    elif key == 'up':
-        keyboard.press(Key.up)
-        keyboard.release(Key.up)
-    elif key == 'right':
-        keyboard.press(Key.right)
-        keyboard.release(Key.right)
-    elif key == 'space':
-        keyboard.press(Key.space)
-        keyboard.release(Key.space)
+def mouse_set(coordinates):
+    mouse = pym.Controller()
+    mouse.position = coordinates
+
+def mouse_move(offset):
+    mouse = pym.Controller()
+    mouse.move(offset[0],offset[1])
+
+def mouse_click():
+    mouse = pym.Controller()
+    mouse.press(pym.Button.left)
+    mouse.release(pym.Button.left)
+
+def mouse_pos():
+    mouse = pym.Controller() 
+    return mouse.position

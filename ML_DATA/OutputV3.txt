@@ -1,0 +1,2112 @@
+##############        GENERATION 0  ###############
+fitness value of chromosome 0 :   855
+fitness value of chromosome 1 :   750
+fitness value of chromosome 2 :   131
+fitness value of chromosome 3 :   1876
+fitness value of chromosome 4 :   640
+fitness value of chromosome 5 :   20
+fitness value of chromosome 6 :   641
+fitness value of chromosome 7 :   335
+fitness value of chromosome 8 :   1058
+fitness value of chromosome 9 :   1062
+fitness value of chromosome 10 :   751
+fitness value of chromosome 11 :   20
+fitness value of chromosome 12 :   1573
+fitness value of chromosome 13 :   1058
+fitness value of chromosome 14 :   339
+fitness value of chromosome 15 :   243
+fitness value of chromosome 16 :   637
+fitness value of chromosome 17 :   229
+fitness value of chromosome 18 :   121
+fitness value of chromosome 19 :   21
+fitness value of chromosome 20 :   1263
+fitness value of chromosome 21 :   30
+fitness value of chromosome 22 :   1061
+fitness value of chromosome 23 :   444
+fitness value of chromosome 24 :   22
+fitness value of chromosome 25 :   742
+fitness value of chromosome 26 :   227
+fitness value of chromosome 27 :   1062
+fitness value of chromosome 28 :   652
+fitness value of chromosome 29 :   857
+fitness value of chromosome 30 :   1368
+fitness value of chromosome 31 :   23
+fitness value of chromosome 32 :   231
+fitness value of chromosome 33 :   30
+fitness value of chromosome 34 :   236
+fitness value of chromosome 35 :   649
+fitness value of chromosome 36 :   228
+fitness value of chromosome 37 :   648
+fitness value of chromosome 38 :   24
+fitness value of chromosome 39 :   334
+fitness value of chromosome 40 :   1470
+fitness value of chromosome 41 :   542
+fitness value of chromosome 42 :   748
+fitness value of chromosome 43 :   1467
+fitness value of chromosome 44 :   651
+fitness value of chromosome 45 :   18
+fitness value of chromosome 46 :   440
+fitness value of chromosome 47 :   648
+fitness value of chromosome 48 :   342
+fitness value of chromosome 49 :   640
+#######  fittest chromosome in generation 0 is having fitness value:   1876
+[-0.26  -0.204 -0.804 -0.534]
+[-0.95  -0.212 -0.75  -0.074]
+[-0.837 -0.81   0.46  -0.534]
+[-0.26  -1.495  1.065 -0.534]
+[-0.985  0.73  -0.75  -0.358]
+[-0.15   1.321  0.47  -1.328]
+[-0.26  -1.809  0.47  -0.534]
+[-0.26  -1.809  1.406 -0.534]
+[-0.15  -1.809  0.47  -0.886]
+[-0.95  -0.577  1.065 -0.534]
+[-0.15  -0.577  0.793 -0.549]
+[-0.15   1.275  0.46  -1.355]
+##############        GENERATION 1  ###############
+fitness value of chromosome 0 :   1471
+fitness value of chromosome 1 :   646
+fitness value of chromosome 2 :   949
+fitness value of chromosome 3 :   1677
+fitness value of chromosome 4 :   850
+fitness value of chromosome 5 :   546
+fitness value of chromosome 6 :   543
+fitness value of chromosome 7 :   2085
+fitness value of chromosome 8 :   1156
+fitness value of chromosome 9 :   1164
+fitness value of chromosome 10 :   854
+fitness value of chromosome 11 :   337
+fitness value of chromosome 12 :   959
+fitness value of chromosome 13 :   651
+fitness value of chromosome 14 :   543
+fitness value of chromosome 15 :   1162
+fitness value of chromosome 16 :   548
+fitness value of chromosome 17 :   1162
+fitness value of chromosome 18 :   1159
+fitness value of chromosome 19 :   2391
+fitness value of chromosome 20 :   1058
+fitness value of chromosome 21 :   442
+fitness value of chromosome 22 :   954
+fitness value of chromosome 23 :   1367
+fitness value of chromosome 24 :   131
+fitness value of chromosome 25 :   334
+fitness value of chromosome 26 :   848
+fitness value of chromosome 27 :   442
+fitness value of chromosome 28 :   441
+fitness value of chromosome 29 :   951
+fitness value of chromosome 30 :   636
+fitness value of chromosome 31 :   438
+fitness value of chromosome 32 :   853
+fitness value of chromosome 33 :   957
+fitness value of chromosome 34 :   750
+fitness value of chromosome 35 :   1365
+fitness value of chromosome 36 :   1265
+fitness value of chromosome 37 :   543
+fitness value of chromosome 38 :   2085
+fitness value of chromosome 39 :   1365
+fitness value of chromosome 40 :   1061
+fitness value of chromosome 41 :   750
+fitness value of chromosome 42 :   1470
+fitness value of chromosome 43 :   1059
+fitness value of chromosome 44 :   1573
+fitness value of chromosome 45 :   1667
+fitness value of chromosome 46 :   853
+fitness value of chromosome 47 :   853
+fitness value of chromosome 48 :   1465
+fitness value of chromosome 49 :   130
+#######  fittest chromosome in generation 1 is having fitness value:   2391
+[-0.837 -0.81   0.47  -0.638]
+[-0.26  -1.809  1.406 -0.534]
+[-0.26  -0.451 -0.804 -0.534]
+[-0.26  -1.495  1.065 -0.534]
+[-0.15  -1.809 -0.137 -0.534]
+[-0.15  -0.128  0.47  -0.886]
+[-0.26  -0.204 -0.804 -0.534]
+[-0.15  -1.809  1.406 -2.209]
+[-1.705  0.73  -0.75  -0.358]
+[-0.26  -0.81   0.47  -0.235]
+[-0.95  -0.577  1.065 -0.99 ]
+[-0.837 -1.809  0.46  -0.453]
+##############        GENERATION 2  ###############
+fitness value of chromosome 0 :   334
+fitness value of chromosome 1 :   342
+fitness value of chromosome 2 :   339
+fitness value of chromosome 3 :   956
+fitness value of chromosome 4 :   548
+fitness value of chromosome 5 :   649
+fitness value of chromosome 6 :   547
+fitness value of chromosome 7 :   1268
+fitness value of chromosome 8 :   1978
+fitness value of chromosome 9 :   1267
+fitness value of chromosome 10 :   850
+fitness value of chromosome 11 :   338
+fitness value of chromosome 12 :   850
+fitness value of chromosome 13 :   1054
+fitness value of chromosome 14 :   446
+fitness value of chromosome 15 :   747
+fitness value of chromosome 16 :   1265
+fitness value of chromosome 17 :   1161
+fitness value of chromosome 18 :   651
+fitness value of chromosome 19 :   1060
+fitness value of chromosome 20 :   25
+fitness value of chromosome 21 :   235
+fitness value of chromosome 22 :   1051
+fitness value of chromosome 23 :   642
+fitness value of chromosome 24 :   748
+fitness value of chromosome 25 :   755
+fitness value of chromosome 26 :   1267
+fitness value of chromosome 27 :   1470
+fitness value of chromosome 28 :   127
+fitness value of chromosome 29 :   443
+fitness value of chromosome 30 :   1162
+fitness value of chromosome 31 :   1267
+fitness value of chromosome 32 :   853
+fitness value of chromosome 33 :   652
+fitness value of chromosome 34 :   340
+fitness value of chromosome 35 :   1879
+fitness value of chromosome 36 :   1061
+fitness value of chromosome 37 :   1570
+fitness value of chromosome 38 :   1459
+fitness value of chromosome 39 :   1674
+fitness value of chromosome 40 :   1160
+fitness value of chromosome 41 :   852
+fitness value of chromosome 42 :   949
+fitness value of chromosome 43 :   20
+fitness value of chromosome 44 :   1774
+fitness value of chromosome 45 :   1165
+fitness value of chromosome 46 :   1568
+fitness value of chromosome 47 :   1261
+fitness value of chromosome 48 :   648
+fitness value of chromosome 49 :   542
+#######  fittest chromosome in generation 2 is having fitness value:   1978
+[-1.705  0.73  -0.75  -0.358]
+[-0.837 -1.809  2.021 -0.534]
+[-0.15  -1.398  0.47  -0.638]
+[ 0.075 -1.495  1.406 -0.534]
+[-0.26  -1.537  0.47  -0.534]
+[-2.632  0.73  -0.75  -0.534]
+[-0.95  -0.577 -0.137 -0.58 ]
+[-0.26  -0.204 -0.592 -0.534]
+[-0.15  -1.809  1.406 -2.209]
+[-0.26  -0.81   0.47  -0.235]
+[-0.15  -0.128  0.47  -1.43 ]
+[-1.37  -0.81   0.46  -0.453]
+##############        GENERATION 3  ###############
+fitness value of chromosome 0 :   1055
+fitness value of chromosome 1 :   747
+fitness value of chromosome 2 :   440
+fitness value of chromosome 3 :   1372
+fitness value of chromosome 4 :   1264
+fitness value of chromosome 5 :   960
+fitness value of chromosome 6 :   848
+fitness value of chromosome 7 :   857
+fitness value of chromosome 8 :   851
+fitness value of chromosome 9 :   646
+fitness value of chromosome 10 :   750
+fitness value of chromosome 11 :   853
+fitness value of chromosome 12 :   750
+fitness value of chromosome 13 :   544
+fitness value of chromosome 14 :   234
+fitness value of chromosome 15 :   1269
+fitness value of chromosome 16 :   644
+fitness value of chromosome 17 :   1466
+fitness value of chromosome 18 :   1672
+fitness value of chromosome 19 :   23
+fitness value of chromosome 20 :   442
+fitness value of chromosome 21 :   1261
+fitness value of chromosome 22 :   957
+fitness value of chromosome 23 :   1368
+fitness value of chromosome 24 :   951
+fitness value of chromosome 25 :   1262
+fitness value of chromosome 26 :   448
+fitness value of chromosome 27 :   751
+fitness value of chromosome 28 :   1365
+fitness value of chromosome 29 :   748
+fitness value of chromosome 30 :   853
+fitness value of chromosome 31 :   962
+fitness value of chromosome 32 :   549
+fitness value of chromosome 33 :   1469
+fitness value of chromosome 34 :   1364
+fitness value of chromosome 35 :   541
+fitness value of chromosome 36 :   340
+fitness value of chromosome 37 :   1474
+fitness value of chromosome 38 :   751
+fitness value of chromosome 39 :   954
+fitness value of chromosome 40 :   1162
+fitness value of chromosome 41 :   546
+fitness value of chromosome 42 :   1263
+fitness value of chromosome 43 :   1057
+fitness value of chromosome 44 :   1257
+fitness value of chromosome 45 :   1157
+fitness value of chromosome 46 :   858
+fitness value of chromosome 47 :   1569
+fitness value of chromosome 48 :   960
+fitness value of chromosome 49 :   647
+#######  fittest chromosome in generation 3 is having fitness value:   1672
+[-0.219 -1.398 -0.137 -0.638]
+[-0.95  -1.398  0.271 -0.638]
+[-0.95  -0.577 -0.137 -0.321]
+[-1.175 -0.577 -0.137 -0.58 ]
+[-0.26  -0.204  0.47  -1.08 ]
+[ 0.075 -1.495  1.406 -0.534]
+[-0.26  -2.46   0.47  -0.534]
+[-0.26  -1.537 -0.226 -0.534]
+[-0.309 -0.81  -0.137 -0.235]
+[-3.062  0.73  -0.75  -0.534]
+[-0.26  -1.537  0.47  -0.534]
+[-2.632  0.73  -0.35  -0.638]
+##############        GENERATION 4  ###############
+fitness value of chromosome 0 :   851
+fitness value of chromosome 1 :   1362
+fitness value of chromosome 2 :   1160
+fitness value of chromosome 3 :   848
+fitness value of chromosome 4 :   241
+fitness value of chromosome 5 :   1263
+fitness value of chromosome 6 :   847
+fitness value of chromosome 7 :   647
+fitness value of chromosome 8 :   1878
+fitness value of chromosome 9 :   956
+fitness value of chromosome 10 :   958
+fitness value of chromosome 11 :   1164
+fitness value of chromosome 12 :   857
+fitness value of chromosome 13 :   1674
+fitness value of chromosome 14 :   1162
+fitness value of chromosome 15 :   647
+fitness value of chromosome 16 :   1059
+fitness value of chromosome 17 :   24
+fitness value of chromosome 18 :   1158
+fitness value of chromosome 19 :   448
+fitness value of chromosome 20 :   1063
+fitness value of chromosome 21 :   1371
+fitness value of chromosome 22 :   2187
+fitness value of chromosome 23 :   1056
+fitness value of chromosome 24 :   857
+fitness value of chromosome 25 :   1369
+fitness value of chromosome 26 :   1365
+fitness value of chromosome 27 :   439
+fitness value of chromosome 28 :   645
+fitness value of chromosome 29 :   1566
+fitness value of chromosome 30 :   746
+fitness value of chromosome 31 :   856
+fitness value of chromosome 32 :   856
+fitness value of chromosome 33 :   850
+fitness value of chromosome 34 :   1781
+fitness value of chromosome 35 :   233
+fitness value of chromosome 36 :   345
+fitness value of chromosome 37 :   948
+fitness value of chromosome 38 :   859
+fitness value of chromosome 39 :   340
+fitness value of chromosome 40 :   1876
+fitness value of chromosome 41 :   855
+fitness value of chromosome 42 :   652
+fitness value of chromosome 43 :   340
+fitness value of chromosome 44 :   31
+fitness value of chromosome 45 :   1263
+fitness value of chromosome 46 :   854
+fitness value of chromosome 47 :   1162
+fitness value of chromosome 48 :   340
+fitness value of chromosome 49 :   1157
+#######  fittest chromosome in generation 4 is having fitness value:   2187
+[-0.907 -0.204  0.47  -1.08 ]
+[-0.309 -0.81  -0.137 -0.235]
+[-0.309 -1.474 -0.137 -0.235]
+[-0.219 -1.398 -0.137 -0.661]
+[-0.26  -1.537  0.47  -1.429]
+[-2.203 -1.495 -0.75  -0.534]
+[-0.219 -2.064  0.271 -0.638]
+[ 0.287 -2.46   0.47  -0.534]
+[-0.309 -0.204  0.23  -0.235]
+[-0.95  -1.398  0.271 -0.638]
+[ 0.075 -1.495  1.406 -0.534]
+[-0.26  -2.46   0.47  -0.605]
+##############        GENERATION 5  ###############
+fitness value of chromosome 0 :   858
+fitness value of chromosome 1 :   1771
+fitness value of chromosome 2 :   954
+fitness value of chromosome 3 :   2084
+fitness value of chromosome 4 :   1363
+fitness value of chromosome 5 :   1060
+fitness value of chromosome 6 :   1371
+fitness value of chromosome 7 :   1463
+fitness value of chromosome 8 :   956
+fitness value of chromosome 9 :   1162
+fitness value of chromosome 10 :   1056
+fitness value of chromosome 11 :   1369
+fitness value of chromosome 12 :   745
+fitness value of chromosome 13 :   236
+fitness value of chromosome 14 :   1054
+fitness value of chromosome 15 :   958
+fitness value of chromosome 16 :   1254
+fitness value of chromosome 17 :   29
+fitness value of chromosome 18 :   1059
+fitness value of chromosome 19 :   751
+fitness value of chromosome 20 :   644
+fitness value of chromosome 21 :   1880
+fitness value of chromosome 22 :   957
+fitness value of chromosome 23 :   133
+fitness value of chromosome 24 :   544
+fitness value of chromosome 25 :   24
+fitness value of chromosome 26 :   1160
+fitness value of chromosome 27 :   333
+fitness value of chromosome 28 :   749
+fitness value of chromosome 29 :   340
+fitness value of chromosome 30 :   955
+fitness value of chromosome 31 :   1058
+fitness value of chromosome 32 :   1057
+fitness value of chromosome 33 :   1061
+fitness value of chromosome 34 :   545
+fitness value of chromosome 35 :   748
+fitness value of chromosome 36 :   749
+fitness value of chromosome 37 :   1060
+fitness value of chromosome 38 :   751
+fitness value of chromosome 39 :   1062
+fitness value of chromosome 40 :   1061
+fitness value of chromosome 41 :   644
+fitness value of chromosome 42 :   751
+fitness value of chromosome 43 :   1055
+fitness value of chromosome 44 :   338
+fitness value of chromosome 45 :   2186
+fitness value of chromosome 46 :   1164
+fitness value of chromosome 47 :   1777
+fitness value of chromosome 48 :   1165
+fitness value of chromosome 49 :   1468
+#######  fittest chromosome in generation 5 is having fitness value:   2186
+[-0.219 -2.064 -0.137 -1.554]
+[-0.219 -1.398 -0.137 -0.661]
+[-0.907 -0.204  0.305 -1.08 ]
+[-0.95  -1.537 -0.1   -1.429]
+[-0.309 -0.81  -0.137 -0.235]
+[-0.219 -1.398  0.182 -0.661]
+[ 0.287 -2.46   0.47  -0.534]
+[-0.219 -2.064  0.271 -0.638]
+[-0.26  -2.46   0.47  -0.605]
+[-0.26  -1.537  0.47  -1.429]
+[-0.309 -0.204 -0.585 -0.534]
+[-0.907  0.732  0.47  -0.605]
+##############        GENERATION 6  ###############
+fitness value of chromosome 0 :   1263
+fitness value of chromosome 1 :   1162
+fitness value of chromosome 2 :   134
+fitness value of chromosome 3 :   751
+fitness value of chromosome 4 :   1569
+fitness value of chromosome 5 :   2288
+fitness value of chromosome 6 :   747
+fitness value of chromosome 7 :   1165
+fitness value of chromosome 8 :   1162
+fitness value of chromosome 9 :   1267
+fitness value of chromosome 10 :   854
+fitness value of chromosome 11 :   954
+fitness value of chromosome 12 :   1062
+fitness value of chromosome 13 :   1264
+fitness value of chromosome 14 :   753
+fitness value of chromosome 15 :   2385
+fitness value of chromosome 16 :   1063
+fitness value of chromosome 17 :   1062
+fitness value of chromosome 18 :   1667
+fitness value of chromosome 19 :   744
+fitness value of chromosome 20 :   1166
+fitness value of chromosome 21 :   852
+fitness value of chromosome 22 :   1979
+fitness value of chromosome 23 :   337
+fitness value of chromosome 24 :   1162
+fitness value of chromosome 25 :   1263
+fitness value of chromosome 26 :   2181
+fitness value of chromosome 27 :   1470
+fitness value of chromosome 28 :   546
+fitness value of chromosome 29 :   957
+fitness value of chromosome 30 :   1054
+fitness value of chromosome 31 :   956
+fitness value of chromosome 32 :   21
+fitness value of chromosome 33 :   1363
+fitness value of chromosome 34 :   849
+fitness value of chromosome 35 :   646
+fitness value of chromosome 36 :   648
+fitness value of chromosome 37 :   1360
+fitness value of chromosome 38 :   23
+fitness value of chromosome 39 :   138
+fitness value of chromosome 40 :   341
+fitness value of chromosome 41 :   1055
+fitness value of chromosome 42 :   441
+fitness value of chromosome 43 :   1263
+fitness value of chromosome 44 :   134
+fitness value of chromosome 45 :   133
+fitness value of chromosome 46 :   433
+fitness value of chromosome 47 :   2382
+fitness value of chromosome 48 :   1365
+fitness value of chromosome 49 :   1260
+#######  fittest chromosome in generation 6 is having fitness value:   2385
+[-0.561 -1.398 -0.137 -0.661]
+[-0.671 -2.46   0.271 -0.638]
+[-0.219 -1.398  0.182 -0.661]
+[-1.805 -2.46   0.47  -1.429]
+[-0.594 -2.46  -0.137 -1.554]
+[-0.26  -0.204  0.578 -1.429]
+[-0.309 -0.81  -0.137 -0.235]
+[-0.859 -2.064  0.271 -0.534]
+[-0.219 -1.398  0.238 -0.661]
+[-1.576 -1.398 -0.1   -0.661]
+[-0.26  -2.46  -0.137 -1.429]
+[-0.26  -1.537  0.47  -1.429]
+##############        GENERATION 7  ###############
+fitness value of chromosome 0 :   1471
+fitness value of chromosome 1 :   240
+fitness value of chromosome 2 :   1678
+fitness value of chromosome 3 :   751
+fitness value of chromosome 4 :   1056
+fitness value of chromosome 5 :   1056
+fitness value of chromosome 6 :   1569
+fitness value of chromosome 7 :   1056
+fitness value of chromosome 8 :   648
+fitness value of chromosome 9 :   1160
+fitness value of chromosome 10 :   338
+fitness value of chromosome 11 :   959
+fitness value of chromosome 12 :   1773
+fitness value of chromosome 13 :   544
+fitness value of chromosome 14 :   1365
+fitness value of chromosome 15 :   959
+fitness value of chromosome 16 :   958
+fitness value of chromosome 17 :   961
+fitness value of chromosome 18 :   648
+fitness value of chromosome 19 :   956
+fitness value of chromosome 20 :   2591
+fitness value of chromosome 21 :   847
+fitness value of chromosome 22 :   850
+fitness value of chromosome 23 :   1060
+fitness value of chromosome 24 :   1571
+fitness value of chromosome 25 :   1367
+fitness value of chromosome 26 :   1055
+fitness value of chromosome 27 :   957
+fitness value of chromosome 28 :   748
+fitness value of chromosome 29 :   1265
+fitness value of chromosome 30 :   855
+fitness value of chromosome 31 :   1264
+fitness value of chromosome 32 :   548
+fitness value of chromosome 33 :   340
+fitness value of chromosome 34 :   126
+fitness value of chromosome 35 :   1261
+fitness value of chromosome 36 :   646
+fitness value of chromosome 37 :   122
+fitness value of chromosome 38 :   1669
+fitness value of chromosome 39 :   1060
+fitness value of chromosome 40 :   757
+fitness value of chromosome 41 :   1475
+fitness value of chromosome 42 :   958
+fitness value of chromosome 43 :   1266
+fitness value of chromosome 44 :   856
+fitness value of chromosome 45 :   333
+fitness value of chromosome 46 :   536
+fitness value of chromosome 47 :   1365
+fitness value of chromosome 48 :   1369
+fitness value of chromosome 49 :   1166
+#######  fittest chromosome in generation 7 is having fitness value:   2591
+[-0.859 -2.064 -0.1   -0.413]
+[-1.576 -1.921  0.271 -0.661]
+[-0.219 -1.398  0.182 -0.661]
+[-0.561 -1.398 -0.137 -1.618]
+[-0.968 -2.46  -0.137 -1.429]
+[-0.309 -0.81  -0.137 -0.235]
+[-0.26  -2.46  -0.137 -1.68 ]
+[-0.561 -1.398 -0.137 -0.661]
+[-0.219 -1.398  0.238 -0.867]
+[-1.576 -1.537 -0.1   -1.432]
+[-0.219 -1.398 -0.745 -0.661]
+[-0.859 -2.064 -0.622 -0.534]
+##############        GENERATION 8  ###############
+fitness value of chromosome 0 :   1474
+fitness value of chromosome 1 :   1466
+fitness value of chromosome 2 :   1466
+fitness value of chromosome 3 :   858
+fitness value of chromosome 4 :   1258
+fitness value of chromosome 5 :   648
+fitness value of chromosome 6 :   854
+fitness value of chromosome 7 :   647
+fitness value of chromosome 8 :   746
+fitness value of chromosome 9 :   648
+fitness value of chromosome 10 :   1470
+fitness value of chromosome 11 :   751
+fitness value of chromosome 12 :   546
+fitness value of chromosome 13 :   649
+fitness value of chromosome 14 :   1261
+fitness value of chromosome 15 :   1674
+fitness value of chromosome 16 :   956
+fitness value of chromosome 17 :   545
+fitness value of chromosome 18 :   852
+fitness value of chromosome 19 :   636
+fitness value of chromosome 20 :   1876
+fitness value of chromosome 21 :   1055
+fitness value of chromosome 22 :   755
+fitness value of chromosome 23 :   438
+fitness value of chromosome 24 :   437
+fitness value of chromosome 25 :   856
+fitness value of chromosome 26 :   1056
+fitness value of chromosome 27 :   540
+fitness value of chromosome 28 :   1161
+fitness value of chromosome 29 :   650
+fitness value of chromosome 30 :   231
+fitness value of chromosome 31 :   442
+fitness value of chromosome 32 :   1466
+fitness value of chromosome 33 :   955
+fitness value of chromosome 34 :   752
+fitness value of chromosome 35 :   748
+fitness value of chromosome 36 :   442
+fitness value of chromosome 37 :   24
+fitness value of chromosome 38 :   231
+fitness value of chromosome 39 :   651
+fitness value of chromosome 40 :   1467
+fitness value of chromosome 41 :   1367
+fitness value of chromosome 42 :   745
+fitness value of chromosome 43 :   1572
+fitness value of chromosome 44 :   1060
+fitness value of chromosome 45 :   1365
+fitness value of chromosome 46 :   1574
+fitness value of chromosome 47 :   438
+fitness value of chromosome 48 :   1265
+fitness value of chromosome 49 :   851
+#######  fittest chromosome in generation 8 is having fitness value:   1876
+[-0.859 -2.064 -0.502 -0.413]
+[-0.561 -1.481 -0.137 -0.661]
+[-0.859 -2.724 -0.622 -0.534]
+[-1.576 -2.589  0.182 -0.661]
+[-0.859 -2.064 -0.1   -0.413]
+[-0.219 -1.398 -0.745 -0.661]
+[-0.219 -1.042 -0.137 -0.235]
+[-1.576 -1.921  0.271 -0.661]
+[-0.219 -1.398  0.182 -0.661]
+[-0.26  -2.46  -0.633 -1.429]
+[-0.974 -2.064 -0.745 -0.661]
+[-0.607 -1.921  0.271 -1.618]
+##############        GENERATION 9  ###############
+fitness value of chromosome 0 :   535
+fitness value of chromosome 1 :   333
+fitness value of chromosome 2 :   437
+fitness value of chromosome 3 :   1151
+fitness value of chromosome 4 :   1043
+fitness value of chromosome 5 :   948
+fitness value of chromosome 6 :   334
+fitness value of chromosome 7 :   438
+fitness value of chromosome 8 :   537
+fitness value of chromosome 9 :   1048
+fitness value of chromosome 10 :   537
+fitness value of chromosome 11 :   538
+fitness value of chromosome 12 :   541
+fitness value of chromosome 13 :   745
+fitness value of chromosome 14 :   330
+fitness value of chromosome 15 :   430
+fitness value of chromosome 16 :   741
+fitness value of chromosome 17 :   229
+fitness value of chromosome 18 :   334
+fitness value of chromosome 19 :   428
+fitness value of chromosome 20 :   1255
+fitness value of chromosome 21 :   434
+fitness value of chromosome 22 :   435
+fitness value of chromosome 23 :   751
+fitness value of chromosome 24 :   436
+fitness value of chromosome 25 :   1045
+fitness value of chromosome 26 :   744
+fitness value of chromosome 27 :   122
+fitness value of chromosome 28 :   839
+fitness value of chromosome 29 :   235
+fitness value of chromosome 30 :   642
+fitness value of chromosome 31 :   534
+fitness value of chromosome 32 :   1252
+fitness value of chromosome 33 :   639
+fitness value of chromosome 34 :   744
+fitness value of chromosome 35 :   231
+fitness value of chromosome 36 :   228
+fitness value of chromosome 37 :   437
+fitness value of chromosome 38 :   1351
+fitness value of chromosome 39 :   439
+fitness value of chromosome 40 :   540
+fitness value of chromosome 41 :   637
+fitness value of chromosome 42 :   131
+fitness value of chromosome 43 :   334
+fitness value of chromosome 44 :   635
+fitness value of chromosome 45 :   438
+fitness value of chromosome 46 :   732
+fitness value of chromosome 47 :   430
+fitness value of chromosome 48 :   335
+fitness value of chromosome 49 :   531
+#######  fittest chromosome in generation 9 is having fitness value:   1351
+[-0.859 -2.101 -0.502 -0.534]
+[-0.219 -1.837 -0.745 -0.661]
+[-0.057 -1.042 -0.137 -0.235]
+[-1.576 -2.589  0.182 -0.661]
+[-0.26  -2.46  -0.633 -1.429]
+[-0.3   -1.481 -0.745 -0.661]
+[-0.859 -2.064 -0.1   -0.413]
+[-0.219 -1.398 -0.745 -0.661]
+[-1.576 -1.921 -0.1   -0.789]
+[-0.714 -2.064 -0.745 -1.618]
+[-1.963 -1.921  0.271 -0.661]
+[-1.229 -2.589  0.182 -1.429]
+##############        GENERATION 10  ###############
+fitness value of chromosome 0 :   334
+fitness value of chromosome 1 :   1048
+fitness value of chromosome 2 :   433
+fitness value of chromosome 3 :   537
+fitness value of chromosome 4 :   1049
+fitness value of chromosome 5 :   644
+fitness value of chromosome 6 :   331
+fitness value of chromosome 7 :   946
+fitness value of chromosome 8 :   326
+fitness value of chromosome 9 :   337
+fitness value of chromosome 10 :   228
+fitness value of chromosome 11 :   539
+fitness value of chromosome 12 :   128
+fitness value of chromosome 13 :   245
+fitness value of chromosome 14 :   329
+fitness value of chromosome 15 :   1043
+fitness value of chromosome 16 :   239
+fitness value of chromosome 17 :   439
+fitness value of chromosome 18 :   640
+fitness value of chromosome 19 :   430
+fitness value of chromosome 20 :   739
+fitness value of chromosome 21 :   739
+fitness value of chromosome 22 :   745
+fitness value of chromosome 23 :   434
+fitness value of chromosome 24 :   952
+fitness value of chromosome 25 :   436
+fitness value of chromosome 26 :   227
+fitness value of chromosome 27 :   1141
+fitness value of chromosome 28 :   744
+fitness value of chromosome 29 :   534
+fitness value of chromosome 30 :   633
+fitness value of chromosome 31 :   1050
+fitness value of chromosome 32 :   328
+fitness value of chromosome 33 :   334
+fitness value of chromosome 34 :   231
+fitness value of chromosome 35 :   233
+fitness value of chromosome 36 :   327
+fitness value of chromosome 37 :   637
+fitness value of chromosome 38 :   637
+fitness value of chromosome 39 :   327
+fitness value of chromosome 40 :   1044
+fitness value of chromosome 41 :   747
+fitness value of chromosome 42 :   642
+fitness value of chromosome 43 :   945
+fitness value of chromosome 44 :   840
+fitness value of chromosome 45 :   1256
+fitness value of chromosome 46 :   1046
+fitness value of chromosome 47 :   438
+fitness value of chromosome 48 :   436
+fitness value of chromosome 49 :   235
+#######  fittest chromosome in generation 10 is having fitness value:   1256
+[-0.763 -1.921 -0.745 -0.661]
+[-0.219 -1.837 -0.772 -0.661]
+[-1.735 -2.589  0.182 -1.429]
+[-0.26  -2.46  -0.633 -1.429]
+[-0.219 -1.837 -0.745 -0.661]
+[-1.229 -2.403 -0.1   -1.429]
+[-0.219 -1.398 -1.506 -0.661]
+[-0.714 -2.064 -0.745 -0.263]
+[-0.219 -1.398 -0.745 -0.735]
+[-0.219 -1.398 -0.745 -0.661]
+[-1.576 -2.589  0.605 -1.618]
+[-0.307 -1.042 -0.745 -0.235]
+##############        GENERATION 11  ###############
+fitness value of chromosome 0 :   334
+fitness value of chromosome 1 :   535
+fitness value of chromosome 2 :   842
+fitness value of chromosome 3 :   638
+fitness value of chromosome 4 :   228
+fitness value of chromosome 5 :   1151
+fitness value of chromosome 6 :   1250
+fitness value of chromosome 7 :   844
+fitness value of chromosome 8 :   130
+fitness value of chromosome 9 :   441
+fitness value of chromosome 10 :   231
+fitness value of chromosome 11 :   122
+fitness value of chromosome 12 :   434
+fitness value of chromosome 13 :   234
+fitness value of chromosome 14 :   235
+fitness value of chromosome 15 :   339
+fitness value of chromosome 16 :   439
+fitness value of chromosome 17 :   630
+fitness value of chromosome 18 :   639
+fitness value of chromosome 19 :   1456
+fitness value of chromosome 20 :   331
+fitness value of chromosome 21 :   643
+fitness value of chromosome 22 :   948
+fitness value of chromosome 23 :   232
+fitness value of chromosome 24 :   432
+fitness value of chromosome 25 :   541
+fitness value of chromosome 26 :   126
+fitness value of chromosome 27 :   743
+fitness value of chromosome 28 :   532
+fitness value of chromosome 29 :   741
+fitness value of chromosome 30 :   229
+fitness value of chromosome 31 :   845
+fitness value of chromosome 32 :   945
+fitness value of chromosome 33 :   539
+fitness value of chromosome 34 :   438
+fitness value of chromosome 35 :   544
+fitness value of chromosome 36 :   434
+fitness value of chromosome 37 :   537
+fitness value of chromosome 38 :   128
+fitness value of chromosome 39 :   1143
+fitness value of chromosome 40 :   645
+fitness value of chromosome 41 :   437
+fitness value of chromosome 42 :   643
+fitness value of chromosome 43 :   541
+fitness value of chromosome 44 :   428
+fitness value of chromosome 45 :   643
+fitness value of chromosome 46 :   432
+fitness value of chromosome 47 :   1152
+fitness value of chromosome 48 :   225
+fitness value of chromosome 49 :   440
+#######  fittest chromosome in generation 11 is having fitness value:   1456
+[-0.763 -2.589 -1.326 -0.661]
+[-0.219 -1.398 -1.506 -0.661]
+[-0.26  -2.589  0.182 -2.252]
+[-1.229 -2.403 -0.1   -1.429]
+[-2.068 -2.589 -0.745 -0.661]
+[-0.763 -1.921 -0.805 -0.263]
+[-0.307 -2.26   0.605 -0.235]
+[-2.122 -2.589 -0.745 -1.618]
+[-0.714 -2.064 -0.745 -0.263]
+[-1.735 -2.589  0.182 -1.429]
+[-1.735 -1.398  0.182 -1.179]
+[-1.212 -1.837  0.605 -0.661]
+##############        GENERATION 12  ###############
+fitness value of chromosome 0 :   540
+fitness value of chromosome 1 :   537
+fitness value of chromosome 2 :   537
+fitness value of chromosome 3 :   639
+fitness value of chromosome 4 :   1558
+fitness value of chromosome 5 :   543
+fitness value of chromosome 6 :   228
+fitness value of chromosome 7 :   340
+fitness value of chromosome 8 :   741
+fitness value of chromosome 9 :   1462
+fitness value of chromosome 10 :   845
+fitness value of chromosome 11 :   1042
+fitness value of chromosome 12 :   336
+fitness value of chromosome 13 :   429
+fitness value of chromosome 14 :   843
+fitness value of chromosome 15 :   333
+fitness value of chromosome 16 :   436
+fitness value of chromosome 17 :   347
+fitness value of chromosome 18 :   832
+fitness value of chromosome 19 :   841
+fitness value of chromosome 20 :   543
+fitness value of chromosome 21 :   229
+fitness value of chromosome 22 :   739
+fitness value of chromosome 23 :   433
+fitness value of chromosome 24 :   640
+fitness value of chromosome 25 :   848
+fitness value of chromosome 26 :   739
+fitness value of chromosome 27 :   746
+fitness value of chromosome 28 :   127
+fitness value of chromosome 29 :   128
+fitness value of chromosome 30 :   234
+fitness value of chromosome 31 :   428
+fitness value of chromosome 32 :   539
+fitness value of chromosome 33 :   538
+fitness value of chromosome 34 :   541
+fitness value of chromosome 35 :   1249
+fitness value of chromosome 36 :   436
+fitness value of chromosome 37 :   641
+fitness value of chromosome 38 :   542
+fitness value of chromosome 39 :   227
+fitness value of chromosome 40 :   847
+fitness value of chromosome 41 :   739
+fitness value of chromosome 42 :   739
+fitness value of chromosome 43 :   329
+fitness value of chromosome 44 :   637
+fitness value of chromosome 45 :   644
+fitness value of chromosome 46 :   641
+fitness value of chromosome 47 :   540
+fitness value of chromosome 48 :   743
+fitness value of chromosome 49 :   234
+#######  fittest chromosome in generation 12 is having fitness value:   1558
+[-2.068 -2.589 -0.745 -0.661]
+[-1.735 -2.589  0.182 -1.429]
+[-0.219 -1.336  0.605 -0.235]
+[-1.212 -1.837  0.605 -0.661]
+[-0.761 -2.064 -0.745 -1.179]
+[-1.735 -2.589  0.601 -1.429]
+[-1.735 -1.398  0.182 -1.179]
+[-0.049 -1.398 -0.745 -0.661]
+[-1.762 -2.589 -0.745 -0.661]
+[-2.122 -2.589  0.182 -2.271]
+[-0.446 -2.589  0.182 -0.661]
+[-1.212 -1.837  0.085 -0.661]
+##############        GENERATION 13  ###############
+fitness value of chromosome 0 :   437
+fitness value of chromosome 1 :   1355
+fitness value of chromosome 2 :   335
+fitness value of chromosome 3 :   138
+fitness value of chromosome 4 :   329
+fitness value of chromosome 5 :   844
+fitness value of chromosome 6 :   746
+fitness value of chromosome 7 :   441
+fitness value of chromosome 8 :   126
+fitness value of chromosome 9 :   431
+fitness value of chromosome 10 :   331
+fitness value of chromosome 11 :   131
+fitness value of chromosome 12 :   223
+fitness value of chromosome 13 :   438
+fitness value of chromosome 14 :   851
+fitness value of chromosome 15 :   342
+fitness value of chromosome 16 :   939
+fitness value of chromosome 17 :   1053
+fitness value of chromosome 18 :   543
+fitness value of chromosome 19 :   1254
+fitness value of chromosome 20 :   944
+fitness value of chromosome 21 :   128
+fitness value of chromosome 22 :   647
+fitness value of chromosome 23 :   738
+fitness value of chromosome 24 :   329
+fitness value of chromosome 25 :   227
+fitness value of chromosome 26 :   332
+fitness value of chromosome 27 :   118
+fitness value of chromosome 28 :   234
+fitness value of chromosome 29 :   226
+fitness value of chromosome 30 :   746
+fitness value of chromosome 31 :   645
+fitness value of chromosome 32 :   231
+fitness value of chromosome 33 :   632
+fitness value of chromosome 34 :   326
+fitness value of chromosome 35 :   433
+fitness value of chromosome 36 :   945
+fitness value of chromosome 37 :   1663
+fitness value of chromosome 38 :   222
+fitness value of chromosome 39 :   439
+fitness value of chromosome 40 :   847
+fitness value of chromosome 41 :   228
+fitness value of chromosome 42 :   330
+fitness value of chromosome 43 :   541
+fitness value of chromosome 44 :   438
+fitness value of chromosome 45 :   1662
+fitness value of chromosome 46 :   335
+fitness value of chromosome 47 :   437
+fitness value of chromosome 48 :   221
+fitness value of chromosome 49 :   738
+#######  fittest chromosome in generation 13 is having fitness value:   1663
+[-0.049 -1.966 -0.745 -0.661]
+[-2.122 -3.362 -0.745 -0.661]
+[-1.735 -2.589  0.182 -1.429]
+[-0.446 -1.797  0.605 -0.661]
+[-1.212 -1.837  0.605 -0.653]
+[-0.219 -2.107  0.605 -0.235]
+[-1.212 -2.589  0.182  0.319]
+[-1.864 -1.837  0.601 -1.429]
+[-2.122 -2.589 -0.051 -2.271]
+[-0.049 -1.398  0.033 -0.661]
+[-1.735 -2.589  0.601 -1.429]
+[-1.735 -1.398  0.182 -1.179]
+##############        GENERATION 14  ###############
+fitness value of chromosome 0 :   639
+fitness value of chromosome 1 :   437
+fitness value of chromosome 2 :   531
+fitness value of chromosome 3 :   328
+fitness value of chromosome 4 :   534
+fitness value of chromosome 5 :   1048
+fitness value of chromosome 6 :   1354
+fitness value of chromosome 7 :   232
+fitness value of chromosome 8 :   533
+fitness value of chromosome 9 :   525
+fitness value of chromosome 10 :   1254
+fitness value of chromosome 11 :   1152
+fitness value of chromosome 12 :   331
+fitness value of chromosome 13 :   432
+fitness value of chromosome 14 :   743
+fitness value of chromosome 15 :   130
+fitness value of chromosome 16 :   739
+fitness value of chromosome 17 :   330
+fitness value of chromosome 18 :   231
+fitness value of chromosome 19 :   945
+fitness value of chromosome 20 :   539
+fitness value of chromosome 21 :   745
+fitness value of chromosome 22 :   433
+fitness value of chromosome 23 :   634
+fitness value of chromosome 24 :   1556
+fitness value of chromosome 25 :   523
+fitness value of chromosome 26 :   644
+fitness value of chromosome 27 :   328
+fitness value of chromosome 28 :   846
+fitness value of chromosome 29 :   629
+fitness value of chromosome 30 :   642
+fitness value of chromosome 31 :   434
+fitness value of chromosome 32 :   329
+fitness value of chromosome 33 :   428
+fitness value of chromosome 34 :   230
+fitness value of chromosome 35 :   540
+fitness value of chromosome 36 :   333
+fitness value of chromosome 37 :   840
+fitness value of chromosome 38 :   27
+fitness value of chromosome 39 :   532
+fitness value of chromosome 40 :   942
+fitness value of chromosome 41 :   131
+fitness value of chromosome 42 :   237
+fitness value of chromosome 43 :   428
+fitness value of chromosome 44 :   1049
+fitness value of chromosome 45 :   330
+fitness value of chromosome 46 :   744
+fitness value of chromosome 47 :   439
+fitness value of chromosome 48 :   637
+fitness value of chromosome 49 :   536
+#######  fittest chromosome in generation 14 is having fitness value:   1556
+[ 0.414 -1.797  0.605 -1.429]
+[-1.212 -2.589  0.182  0.319]
+[-1.735 -2.589  0.601 -1.429]
+[-1.735 -1.398  0.182 -1.179]
+[-1.735 -1.398 -0.559 -1.179]
+[-0.219 -2.107  0.605 -0.235]
+[-1.735 -2.589  0.399 -1.179]
+[-0.291 -2.589  0.182 -0.661]
+[-0.446 -1.837  0.605 -0.382]
+[-2.122 -2.589  0.601 -0.095]
+[-1.735 -2.589  0.339 -1.429]
+[-0.219 -1.398  1.362 -1.179]
+##############        GENERATION 15  ###############
+fitness value of chromosome 0 :   740
+fitness value of chromosome 1 :   746
+fitness value of chromosome 2 :   643
+fitness value of chromosome 3 :   117
+fitness value of chromosome 4 :   227
+fitness value of chromosome 5 :   127
+fitness value of chromosome 6 :   640
+fitness value of chromosome 7 :   237
+fitness value of chromosome 8 :   134
+fitness value of chromosome 9 :   433
+fitness value of chromosome 10 :   539
+fitness value of chromosome 11 :   225
+fitness value of chromosome 12 :   436
+fitness value of chromosome 13 :   128
+fitness value of chromosome 14 :   950
+fitness value of chromosome 15 :   128
+fitness value of chromosome 16 :   329
+fitness value of chromosome 17 :   537
+fitness value of chromosome 18 :   228
+fitness value of chromosome 19 :   1150
+fitness value of chromosome 20 :   640
+fitness value of chromosome 21 :   534
+fitness value of chromosome 22 :   129
+fitness value of chromosome 23 :   846
+fitness value of chromosome 24 :   636
+fitness value of chromosome 25 :   2163
+fitness value of chromosome 26 :   440
+fitness value of chromosome 27 :   1051
+fitness value of chromosome 28 :   536
+fitness value of chromosome 29 :   330
+fitness value of chromosome 30 :   436
+fitness value of chromosome 31 :   740
+fitness value of chromosome 32 :   122
+fitness value of chromosome 33 :   334
+fitness value of chromosome 34 :   233
+fitness value of chromosome 35 :   646
+fitness value of chromosome 36 :   842
+fitness value of chromosome 37 :   845
+fitness value of chromosome 38 :   233
+fitness value of chromosome 39 :   640
+fitness value of chromosome 40 :   1153
+fitness value of chromosome 41 :   1154
+fitness value of chromosome 42 :   331
+fitness value of chromosome 43 :   330
+fitness value of chromosome 44 :   439
+fitness value of chromosome 45 :   542
+fitness value of chromosome 46 :   535
+fitness value of chromosome 47 :   1151
+fitness value of chromosome 48 :   643
+fitness value of chromosome 49 :   946
+#######  fittest chromosome in generation 15 is having fitness value:   2163
+[-1.735 -2.589  0.601 -1.87 ]
+[-1.068 -1.398  1.362 -1.179]
+[-1.212 -1.837  0.605 -0.274]
+[-1.212 -2.589  0.339 -0.082]
+[-1.735 -2.589  0.399 -0.392]
+[-0.446 -1.071  0.605 -0.382]
+[-1.881 -1.398 -0.559 -1.179]
+[-0.219 -2.348  0.605 -1.429]
+[-2.064 -2.589  0.605 -0.382]
+[-1.735 -3.548  1.362 -1.429]
+[-0.219 -2.589 -0.328 -0.235]
+[-1.212 -2.589  0.182  0.319]
+##############        GENERATION 16  ###############
+fitness value of chromosome 0 :   640
+fitness value of chromosome 1 :   436
+fitness value of chromosome 2 :   1352
+fitness value of chromosome 3 :   431
+fitness value of chromosome 4 :   335
+fitness value of chromosome 5 :   645
+fitness value of chromosome 6 :   1051
+fitness value of chromosome 7 :   636
+fitness value of chromosome 8 :   644
+fitness value of chromosome 9 :   125
+fitness value of chromosome 10 :   336
+fitness value of chromosome 11 :   640
+fitness value of chromosome 12 :   545
+fitness value of chromosome 13 :   842
+fitness value of chromosome 14 :   850
+fitness value of chromosome 15 :   129
+fitness value of chromosome 16 :   234
+fitness value of chromosome 17 :   330
+fitness value of chromosome 18 :   844
+fitness value of chromosome 19 :   1049
+fitness value of chromosome 20 :   744
+fitness value of chromosome 21 :   224
+fitness value of chromosome 22 :   948
+fitness value of chromosome 23 :   119
+fitness value of chromosome 24 :   641
+fitness value of chromosome 25 :   334
+fitness value of chromosome 26 :   1048
+fitness value of chromosome 27 :   531
+fitness value of chromosome 28 :   740
+fitness value of chromosome 29 :   1759
+fitness value of chromosome 30 :   848
+fitness value of chromosome 31 :   543
+fitness value of chromosome 32 :   638
+fitness value of chromosome 33 :   640
+fitness value of chromosome 34 :   638
+fitness value of chromosome 35 :   129
+fitness value of chromosome 36 :   839
+fitness value of chromosome 37 :   642
+fitness value of chromosome 38 :   541
+fitness value of chromosome 39 :   233
+fitness value of chromosome 40 :   744
+fitness value of chromosome 41 :   845
+fitness value of chromosome 42 :   1049
+fitness value of chromosome 43 :   845
+fitness value of chromosome 44 :   842
+fitness value of chromosome 45 :   1154
+fitness value of chromosome 46 :   127
+fitness value of chromosome 47 :   1357
+fitness value of chromosome 48 :   643
+fitness value of chromosome 49 :   437
+#######  fittest chromosome in generation 16 is having fitness value:   1759
+[-1.212 -1.387  0.605 -1.429]
+[-1.735 -2.016  0.601 -1.179]
+[-1.212 -1.837  0.605 -0.274]
+[-1.212 -2.589  0.135 -1.429]
+[-1.881 -1.398 -0.559 -1.179]
+[-2.064 -2.589  0.639 -0.382]
+[-0.219 -1.071  0.318 -0.382]
+[-1.068 -2.105  1.362 -1.429]
+[-0.219 -2.348  0.605 -1.894]
+[-1.154 -2.589  0.605 -0.235]
+[-1.068 -1.398  1.362 -1.367]
+[-1.068 -2.348  1.681 -1.429]
+##############        GENERATION 17  ###############
+fitness value of chromosome 0 :   1251
+fitness value of chromosome 1 :   439
+fitness value of chromosome 2 :   635
+fitness value of chromosome 3 :   845
+fitness value of chromosome 4 :   539
+fitness value of chromosome 5 :   536
+fitness value of chromosome 6 :   642
+fitness value of chromosome 7 :   1051
+fitness value of chromosome 8 :   537
+fitness value of chromosome 9 :   945
+fitness value of chromosome 10 :   1248
+fitness value of chromosome 11 :   533
+fitness value of chromosome 12 :   334
+fitness value of chromosome 13 :   438
+fitness value of chromosome 14 :   939
+fitness value of chromosome 15 :   537
+fitness value of chromosome 16 :   237
+fitness value of chromosome 17 :   643
+fitness value of chromosome 18 :   743
+fitness value of chromosome 19 :   639
+fitness value of chromosome 20 :   332
+fitness value of chromosome 21 :   743
+fitness value of chromosome 22 :   233
+fitness value of chromosome 23 :   1149
+fitness value of chromosome 24 :   946
+fitness value of chromosome 25 :   231
+fitness value of chromosome 26 :   232
+fitness value of chromosome 27 :   533
+fitness value of chromosome 28 :   1554
+fitness value of chromosome 29 :   633
+fitness value of chromosome 30 :   641
+fitness value of chromosome 31 :   326
+fitness value of chromosome 32 :   843
+fitness value of chromosome 33 :   339
+fitness value of chromosome 34 :   339
+fitness value of chromosome 35 :   428
+fitness value of chromosome 36 :   227
+fitness value of chromosome 37 :   536
+fitness value of chromosome 38 :   738
+fitness value of chromosome 39 :   542
+fitness value of chromosome 40 :   1456
+fitness value of chromosome 41 :   222
+fitness value of chromosome 42 :   640
+fitness value of chromosome 43 :   1254
+fitness value of chromosome 44 :   1351
+fitness value of chromosome 45 :   1349
+fitness value of chromosome 46 :   228
+fitness value of chromosome 47 :   641
+fitness value of chromosome 48 :   436
+fitness value of chromosome 49 :   635
+#######  fittest chromosome in generation 17 is having fitness value:   1554
+[-0.219 -2.297  1.362 -1.894]
+[-1.212 -1.837  0.828 -0.274]
+[-2.064 -2.701  0.639 -0.382]
+[-1.068 -1.769  0.318 -0.382]
+[-0.219 -0.919  0.639 -0.382]
+[-1.212 -1.387  0.605 -1.429]
+[-1.068 -1.398  1.362 -1.367]
+[-1.154 -3.495  0.605 -0.235]
+[-1.068 -2.105  1.362 -1.429]
+[-0.833 -1.398  0.135 -1.429]
+[-1.154 -2.589  0.605 -0.235]
+[-1.068 -2.359  0.135 -1.429]
+##############        GENERATION 18  ###############
+fitness value of chromosome 0 :   539
+fitness value of chromosome 1 :   1050
+fitness value of chromosome 2 :   429
+fitness value of chromosome 3 :   119
+fitness value of chromosome 4 :   738
+fitness value of chromosome 5 :   840
+fitness value of chromosome 6 :   946
+fitness value of chromosome 7 :   850
+fitness value of chromosome 8 :   442
+fitness value of chromosome 9 :   328
+fitness value of chromosome 10 :   429
+fitness value of chromosome 11 :   331
+fitness value of chromosome 12 :   640
+fitness value of chromosome 13 :   1148
+fitness value of chromosome 14 :   838
+fitness value of chromosome 15 :   745
+fitness value of chromosome 16 :   127
+fitness value of chromosome 17 :   537
+fitness value of chromosome 18 :   534
+fitness value of chromosome 19 :   841
+fitness value of chromosome 20 :   434
+fitness value of chromosome 21 :   641
+fitness value of chromosome 22 :   232
+fitness value of chromosome 23 :   637
+fitness value of chromosome 24 :   948
+fitness value of chromosome 25 :   643
+fitness value of chromosome 26 :   133
+fitness value of chromosome 27 :   948
+fitness value of chromosome 28 :   741
+fitness value of chromosome 29 :   640
+fitness value of chromosome 30 :   332
+fitness value of chromosome 31 :   632
+fitness value of chromosome 32 :   642
+fitness value of chromosome 33 :   848
+fitness value of chromosome 34 :   436
+fitness value of chromosome 35 :   646
+fitness value of chromosome 36 :   543
+fitness value of chromosome 37 :   939
+fitness value of chromosome 38 :   336
+fitness value of chromosome 39 :   1144
+fitness value of chromosome 40 :   230
+fitness value of chromosome 41 :   330
+fitness value of chromosome 42 :   1252
+fitness value of chromosome 43 :   123
+fitness value of chromosome 44 :   837
+fitness value of chromosome 45 :   532
+fitness value of chromosome 46 :   743
+fitness value of chromosome 47 :   637
+fitness value of chromosome 48 :   328
+fitness value of chromosome 49 :   838
+#######  fittest chromosome in generation 18 is having fitness value:   1252
+[-1.212 -1.352  0.135 -1.429]
+[-0.219 -2.359  1.019 -1.429]
+[-0.219 -2.796  0.828 -1.894]
+[-1.212 -1.837  0.828 -0.274]
+[-0.219 -1.609  1.362 -1.429]
+[ 0.545 -2.359  0.135 -1.429]
+[-1.068 -1.398  1.362 -1.367]
+[-0.774 -1.387  0.605 -1.429]
+[-1.154 -3.495  0.605 -0.235]
+[-1.154 -2.359  1.335 -1.429]
+[-0.219 -1.837  1.099 -0.382]
+[-1.212 -1.387  0.605 -1.429]
+##############        GENERATION 19  ###############
+fitness value of chromosome 0 :   948
+fitness value of chromosome 1 :   945
+fitness value of chromosome 2 :   543
+fitness value of chromosome 3 :   640
+fitness value of chromosome 4 :   841
+fitness value of chromosome 5 :   235
+fitness value of chromosome 6 :   739
+fitness value of chromosome 7 :   846
+fitness value of chromosome 8 :   435
+fitness value of chromosome 9 :   338
+fitness value of chromosome 10 :   122
+fitness value of chromosome 11 :   229
+fitness value of chromosome 12 :   334
+fitness value of chromosome 13 :   331
+fitness value of chromosome 14 :   539
+fitness value of chromosome 15 :   634
+fitness value of chromosome 16 :   1251
+fitness value of chromosome 17 :   742
+fitness value of chromosome 18 :   130
+fitness value of chromosome 19 :   538
+fitness value of chromosome 20 :   223
+fitness value of chromosome 21 :   1556
+fitness value of chromosome 22 :   946
+fitness value of chromosome 23 :   1154
+fitness value of chromosome 24 :   744
+fitness value of chromosome 25 :   433
+fitness value of chromosome 26 :   945
+fitness value of chromosome 27 :   131
+fitness value of chromosome 28 :   233
+fitness value of chromosome 29 :   841
+fitness value of chromosome 30 :   539
+fitness value of chromosome 31 :   844
+fitness value of chromosome 32 :   644
+fitness value of chromosome 33 :   1562
+fitness value of chromosome 34 :   440
+fitness value of chromosome 35 :   232
+fitness value of chromosome 36 :   743
+fitness value of chromosome 37 :   639
+fitness value of chromosome 38 :   224
+fitness value of chromosome 39 :   948
+fitness value of chromosome 40 :   428
+fitness value of chromosome 41 :   335
+fitness value of chromosome 42 :   438
+fitness value of chromosome 43 :   951
+fitness value of chromosome 44 :   532
+fitness value of chromosome 45 :   849
+fitness value of chromosome 46 :   237
+fitness value of chromosome 47 :   433
+fitness value of chromosome 48 :   1150
+fitness value of chromosome 49 :   949
+#######  fittest chromosome in generation 19 is having fitness value:   1562
+[-1.212 -1.387  0.605 -0.776]
+[-1.154 -1.387  1.335 -1.298]
+[-1.154 -1.538  1.335 -0.274]
+[-1.154 -2.359  0.397 -1.429]
+[-1.212 -1.398  1.362 -0.632]
+[-1.491 -1.837  0.135 -1.429]
+[-1.212 -1.153  1.362 -1.429]
+[-1.212 -1.352  0.135 -1.429]
+[-1.068 -2.237  0.828 -1.367]
+[-1.154 -3.183  0.605 -0.235]
+[-0.219 -2.359  1.019 -1.429]
+[-1.212 -1.837  1.019  0.505]
+##############        GENERATION 20  ###############
+fitness value of chromosome 0 :   538
+fitness value of chromosome 1 :   642
+fitness value of chromosome 2 :   2475
+fitness value of chromosome 3 :   939
+fitness value of chromosome 4 :   222
+fitness value of chromosome 5 :   431
+fitness value of chromosome 6 :   431
+fitness value of chromosome 7 :   535
+fitness value of chromosome 8 :   1462
+fitness value of chromosome 9 :   744
+fitness value of chromosome 10 :   230
+fitness value of chromosome 11 :   24
+fitness value of chromosome 12 :   228
+fitness value of chromosome 13 :   638
+fitness value of chromosome 14 :   540
+fitness value of chromosome 15 :   644
+fitness value of chromosome 16 :   335
+fitness value of chromosome 17 :   540
+fitness value of chromosome 18 :   538
+fitness value of chromosome 19 :   940
+fitness value of chromosome 20 :   433
+fitness value of chromosome 21 :   845
+fitness value of chromosome 22 :   439
+fitness value of chromosome 23 :   25
+fitness value of chromosome 24 :   1455
+fitness value of chromosome 25 :   437
+fitness value of chromosome 26 :   844
+fitness value of chromosome 27 :   639
+fitness value of chromosome 28 :   328
+fitness value of chromosome 29 :   947
+fitness value of chromosome 30 :   230
+fitness value of chromosome 31 :   743
+fitness value of chromosome 32 :   946
+fitness value of chromosome 33 :   133
+fitness value of chromosome 34 :   440
+fitness value of chromosome 35 :   641
+fitness value of chromosome 36 :   331
+fitness value of chromosome 37 :   640
+fitness value of chromosome 38 :   534
+fitness value of chromosome 39 :   425
+fitness value of chromosome 40 :   442
+fitness value of chromosome 41 :   747
+fitness value of chromosome 42 :   331
+fitness value of chromosome 43 :   741
+fitness value of chromosome 44 :   337
+fitness value of chromosome 45 :   641
+fitness value of chromosome 46 :   426
+fitness value of chromosome 47 :   946
+fitness value of chromosome 48 :   541
+fitness value of chromosome 49 :   537
+#######  fittest chromosome in generation 20 is having fitness value:   2475
+[-1.154 -1.538  1.335 -0.274]
+[-1.068 -2.237  0.828 -1.367]
+[-1.154 -1.837  1.587  0.505]
+[-1.068 -2.237  0.828 -0.868]
+[-1.588 -2.237  1.362 -1.367]
+[-1.212 -2.359  0.138 -0.632]
+[-1.212 -1.352  1.009 -1.429]
+[-1.154 -2.359  0.397 -1.429]
+[-1.154 -1.387  1.335 -0.972]
+[-0.744 -1.153  1.362 -1.367]
+[-1.154 -1.153  1.362 -0.957]
+[-1.154 -3.183  0.605 -0.235]
+##############        GENERATION 21  ###############
+fitness value of chromosome 0 :   334
+fitness value of chromosome 1 :   531
+fitness value of chromosome 2 :   124
+fitness value of chromosome 3 :   1150
+fitness value of chromosome 4 :   337
+fitness value of chromosome 5 :   843
+fitness value of chromosome 6 :   633
+fitness value of chromosome 7 :   328
+fitness value of chromosome 8 :   1049
+fitness value of chromosome 9 :   224
+fitness value of chromosome 10 :   339
+fitness value of chromosome 11 :   536
+fitness value of chromosome 12 :   325
+fitness value of chromosome 13 :   231
+fitness value of chromosome 14 :   131
+fitness value of chromosome 15 :   131
+fitness value of chromosome 16 :   536
+fitness value of chromosome 17 :   638
+fitness value of chromosome 18 :   633
+fitness value of chromosome 19 :   230
+fitness value of chromosome 20 :   1359
+fitness value of chromosome 21 :   842
+fitness value of chromosome 22 :   733
+fitness value of chromosome 23 :   538
+fitness value of chromosome 24 :   1243
+fitness value of chromosome 25 :   740
+fitness value of chromosome 26 :   329
+fitness value of chromosome 27 :   437
+fitness value of chromosome 28 :   121
+fitness value of chromosome 29 :   429
+fitness value of chromosome 30 :   943
+fitness value of chromosome 31 :   438
+fitness value of chromosome 32 :   642
+fitness value of chromosome 33 :   433
+fitness value of chromosome 34 :   1658
+fitness value of chromosome 35 :   641
+fitness value of chromosome 36 :   534
+fitness value of chromosome 37 :   745
+fitness value of chromosome 38 :   437
+fitness value of chromosome 39 :   642
+fitness value of chromosome 40 :   641
+fitness value of chromosome 41 :   434
+fitness value of chromosome 42 :   635
+fitness value of chromosome 43 :   132
+fitness value of chromosome 44 :   127
+fitness value of chromosome 45 :   540
+fitness value of chromosome 46 :   1053
+fitness value of chromosome 47 :   534
+fitness value of chromosome 48 :   330
+fitness value of chromosome 49 :   644
+#######  fittest chromosome in generation 21 is having fitness value:   1658
+[-1.068 -2.237  0.929 -0.972]
+[-1.701 -2.237  0.828 -1.367]
+[-1.154 -1.296  1.362 -0.274]
+[-1.068 -2.237  0.828 -0.868]
+[-0.988 -2.237  0.605 -0.868]
+[-1.154 -1.387  1.335 -0.972]
+[-1.154 -2.359  0.049 -0.235]
+[-1.212 -2.359  0.138 -0.632]
+[-1.068 -1.153  0.828 -1.486]
+[-1.154 -2.359  0.397 -0.449]
+[-0.744 -3.183  0.47  -0.235]
+[-1.154 -1.012  0.397 -1.429]
+##############        GENERATION 22  ###############
+fitness value of chromosome 0 :   331
+fitness value of chromosome 1 :   634
+fitness value of chromosome 2 :   434
+fitness value of chromosome 3 :   1253
+fitness value of chromosome 4 :   847
+fitness value of chromosome 5 :   434
+fitness value of chromosome 6 :   235
+fitness value of chromosome 7 :   1456
+fitness value of chromosome 8 :   950
+fitness value of chromosome 9 :   437
+fitness value of chromosome 10 :   746
+fitness value of chromosome 11 :   746
+fitness value of chromosome 12 :   432
+fitness value of chromosome 13 :   1256
+fitness value of chromosome 14 :   1049
+fitness value of chromosome 15 :   947
+fitness value of chromosome 16 :   536
+fitness value of chromosome 17 :   437
+fitness value of chromosome 18 :   232
+fitness value of chromosome 19 :   533
+fitness value of chromosome 20 :   643
+fitness value of chromosome 21 :   743
+fitness value of chromosome 22 :   125
+fitness value of chromosome 23 :   336
+fitness value of chromosome 24 :   735
+fitness value of chromosome 25 :   742
+fitness value of chromosome 26 :   437
+fitness value of chromosome 27 :   126
+fitness value of chromosome 28 :   232
+fitness value of chromosome 29 :   947
+fitness value of chromosome 30 :   742
+fitness value of chromosome 31 :   848
+fitness value of chromosome 32 :   834
+fitness value of chromosome 33 :   841
+fitness value of chromosome 34 :   645
+fitness value of chromosome 35 :   116
+fitness value of chromosome 36 :   425
+fitness value of chromosome 37 :   1251
+fitness value of chromosome 38 :   737
+fitness value of chromosome 39 :   1048
+fitness value of chromosome 40 :   340
+fitness value of chromosome 41 :   741
+fitness value of chromosome 42 :   428
+fitness value of chromosome 43 :   643
+fitness value of chromosome 44 :   646
+fitness value of chromosome 45 :   631
+fitness value of chromosome 46 :   844
+fitness value of chromosome 47 :   944
+fitness value of chromosome 48 :   121
+fitness value of chromosome 49 :   1353
+#######  fittest chromosome in generation 22 is having fitness value:   1456
+[-1.212 -2.359  0.138 -0.632]
+[-1.701 -2.237  1.783 -1.367]
+[-0.397 -1.153  0.828 -1.486]
+[-1.068 -2.237  0.828 -0.868]
+[-1.068 -2.237  0.681 -0.972]
+[-1.068 -2.237  1.774 -0.972]
+[-1.212 -2.359  0.138 -1.05 ]
+[-1.068 -1.153  0.828 -1.486]
+[-1.068 -0.879  1.362 -1.486]
+[-1.701 -2.237  2.051 -0.972]
+[-0.521 -1.012  0.397 -1.429]
+[-0.723 -2.237  0.828 -0.235]
+##############        GENERATION 23  ###############
+fitness value of chromosome 0 :   329
+fitness value of chromosome 1 :   543
+fitness value of chromosome 2 :   331
+fitness value of chromosome 3 :   538
+fitness value of chromosome 4 :   230
+fitness value of chromosome 5 :   231
+fitness value of chromosome 6 :   841
+fitness value of chromosome 7 :   646
+fitness value of chromosome 8 :   943
+fitness value of chromosome 9 :   337
+fitness value of chromosome 10 :   953
+fitness value of chromosome 11 :   1046
+fitness value of chromosome 12 :   537
+fitness value of chromosome 13 :   1051
+fitness value of chromosome 14 :   636
+fitness value of chromosome 15 :   436
+fitness value of chromosome 16 :   1049
+fitness value of chromosome 17 :   227
+fitness value of chromosome 18 :   536
+fitness value of chromosome 19 :   333
+fitness value of chromosome 20 :   733
+fitness value of chromosome 21 :   233
+fitness value of chromosome 22 :   736
+fitness value of chromosome 23 :   742
+fitness value of chromosome 24 :   1860
+fitness value of chromosome 25 :   544
+fitness value of chromosome 26 :   539
+fitness value of chromosome 27 :   131
+fitness value of chromosome 28 :   128
+fitness value of chromosome 29 :   435
+fitness value of chromosome 30 :   1660
+fitness value of chromosome 31 :   742
+fitness value of chromosome 32 :   1356
+fitness value of chromosome 33 :   435
+fitness value of chromosome 34 :   745
+fitness value of chromosome 35 :   738
+fitness value of chromosome 36 :   1152
+fitness value of chromosome 37 :   436
+fitness value of chromosome 38 :   435
+fitness value of chromosome 39 :   946
+fitness value of chromosome 40 :   1351
+fitness value of chromosome 41 :   541
+fitness value of chromosome 42 :   639
+fitness value of chromosome 43 :   746
+fitness value of chromosome 44 :   435
+fitness value of chromosome 45 :   438
+fitness value of chromosome 46 :   847
+fitness value of chromosome 47 :   429
+fitness value of chromosome 48 :   440
+fitness value of chromosome 49 :   435
+#######  fittest chromosome in generation 23 is having fitness value:   1860
+[-0.521 -2.863  0.397 -1.429]
+[-1.701 -2.673  0.681 -0.972]
+[-1.068 -2.237  2.01  -0.972]
+[-1.212 -2.359  0.138 -0.73 ]
+[-1.212 -2.237  0.138 -1.23 ]
+[-1.212 -3.068  1.783 -0.632]
+[-1.212 -1.927  2.051 -0.972]
+[-0.723 -2.237  0.828 -0.235]
+[-0.521 -1.012  0.397 -1.429]
+[-0.825 -0.879  0.138 -1.05 ]
+[-1.068 -0.879  1.362 -1.486]
+[-0.723 -2.237 -0.093 -1.486]
+##############        GENERATION 24  ###############
+fitness value of chromosome 0 :   115
+fitness value of chromosome 1 :   946
+fitness value of chromosome 2 :   747
+fitness value of chromosome 3 :   226
+fitness value of chromosome 4 :   544
+fitness value of chromosome 5 :   1356
+fitness value of chromosome 6 :   540
+fitness value of chromosome 7 :   327
+fitness value of chromosome 8 :   742
+fitness value of chromosome 9 :   1151
+fitness value of chromosome 10 :   849
+fitness value of chromosome 11 :   227
+fitness value of chromosome 12 :   742
+fitness value of chromosome 13 :   841
+fitness value of chromosome 14 :   1153
+fitness value of chromosome 15 :   845
+fitness value of chromosome 16 :   441
+fitness value of chromosome 17 :   218
+fitness value of chromosome 18 :   542
+fitness value of chromosome 19 :   948
+fitness value of chromosome 20 :   128
+fitness value of chromosome 21 :   234
+fitness value of chromosome 22 :   229
+fitness value of chromosome 23 :   842
+fitness value of chromosome 24 :   641
+fitness value of chromosome 25 :   1051
+fitness value of chromosome 26 :   438
+fitness value of chromosome 27 :   336
+fitness value of chromosome 28 :   639
+fitness value of chromosome 29 :   538
+fitness value of chromosome 30 :   335
+fitness value of chromosome 31 :   131
+fitness value of chromosome 32 :   336
+fitness value of chromosome 33 :   431
+fitness value of chromosome 34 :   532
+fitness value of chromosome 35 :   128
+fitness value of chromosome 36 :   427
+fitness value of chromosome 37 :   845
+fitness value of chromosome 38 :   325
+fitness value of chromosome 39 :   537
+fitness value of chromosome 40 :   1257
+fitness value of chromosome 41 :   1867
+fitness value of chromosome 42 :   645
+fitness value of chromosome 43 :   334
+fitness value of chromosome 44 :   335
+fitness value of chromosome 45 :   230
+fitness value of chromosome 46 :   123
+fitness value of chromosome 47 :   125
+fitness value of chromosome 48 :   639
+fitness value of chromosome 49 :   336
+#######  fittest chromosome in generation 24 is having fitness value:   1867
+[-0.723 -2.237 -0.56  -1.05 ]
+[-1.212 -3.068  1.783 -0.632]
+[-1.72  -2.237  2.01  -0.972]
+[ 0.047 -1.012  1.783 -1.429]
+[-0.825 -0.879  0.138 -1.05 ]
+[-2.236 -1.927  2.051 -0.972]
+[-1.563 -2.237  2.01  -1.486]
+[-1.701 -2.673  0.681 -0.972]
+[-1.068 -0.879  1.362 -1.486]
+[-1.073 -2.237  0.828 -0.235]
+[-1.068 -2.237  0.138 -0.447]
+[-1.212 -1.236  1.783 -0.632]
+##############        GENERATION 25  ###############
+fitness value of chromosome 0 :   844
+fitness value of chromosome 1 :   944
+fitness value of chromosome 2 :   539
+fitness value of chromosome 3 :   536
+fitness value of chromosome 4 :   1050
+fitness value of chromosome 5 :   430
+fitness value of chromosome 6 :   225
+fitness value of chromosome 7 :   434
+fitness value of chromosome 8 :   1162
+fitness value of chromosome 9 :   542
+fitness value of chromosome 10 :   1557
+fitness value of chromosome 11 :   336
+fitness value of chromosome 12 :   127
+fitness value of chromosome 13 :   1761
+fitness value of chromosome 14 :   335
+fitness value of chromosome 15 :   639
+fitness value of chromosome 16 :   537
+fitness value of chromosome 17 :   635
+fitness value of chromosome 18 :   334
+fitness value of chromosome 19 :   440
+fitness value of chromosome 20 :   228
+fitness value of chromosome 21 :   538
+fitness value of chromosome 22 :   945
+fitness value of chromosome 23 :   641
+fitness value of chromosome 24 :   333
+fitness value of chromosome 25 :   239
+fitness value of chromosome 26 :   234
+fitness value of chromosome 27 :   543
+fitness value of chromosome 28 :   21
+fitness value of chromosome 29 :   1150
+fitness value of chromosome 30 :   133
+fitness value of chromosome 31 :   541
+fitness value of chromosome 32 :   1037
+fitness value of chromosome 33 :   337
+fitness value of chromosome 34 :   946
+fitness value of chromosome 35 :   1157
+fitness value of chromosome 36 :   130
+fitness value of chromosome 37 :   538
+fitness value of chromosome 38 :   747
+fitness value of chromosome 39 :   429
+fitness value of chromosome 40 :   330
+fitness value of chromosome 41 :   225
+fitness value of chromosome 42 :   329
+fitness value of chromosome 43 :   844
+fitness value of chromosome 44 :   848
+fitness value of chromosome 45 :   332
+fitness value of chromosome 46 :   1563
+fitness value of chromosome 47 :   435
+fitness value of chromosome 48 :   431
+fitness value of chromosome 49 :   222
+#######  fittest chromosome in generation 25 is having fitness value:   1761
+[-1.411 -1.012  1.783 -0.972]
+[-1.563 -2.237  2.31  -0.235]
+[-1.068 -2.237  0.138 -0.447]
+[-1.068 -0.879  1.362 -1.486]
+[-1.068 -3.058  0.138 -0.447]
+[-0.825 -1.236  0.138 -1.934]
+[-0.825 -0.879  0.138 -1.05 ]
+[-1.711 -3.068  1.783 -1.486]
+[-0.825 -1.012  1.783 -0.952]
+[ 0.047 -2.673  0.681 -1.582]
+[-1.212 -3.068  1.783 -0.632]
+[-1.563 -2.673  1.59  -0.972]
+##############        GENERATION 26  ###############
+fitness value of chromosome 0 :   330
+fitness value of chromosome 1 :   232
+fitness value of chromosome 2 :   17
+fitness value of chromosome 3 :   541
+fitness value of chromosome 4 :   537
+fitness value of chromosome 5 :   438
+fitness value of chromosome 6 :   646
+fitness value of chromosome 7 :   427
+fitness value of chromosome 8 :   946
+fitness value of chromosome 9 :   945
+fitness value of chromosome 10 :   1142
+fitness value of chromosome 11 :   328
+fitness value of chromosome 12 :   838
+fitness value of chromosome 13 :   739
+fitness value of chromosome 14 :   540
+fitness value of chromosome 15 :   843
+fitness value of chromosome 16 :   945
+fitness value of chromosome 17 :   435
+fitness value of chromosome 18 :   430
+fitness value of chromosome 19 :   232
+fitness value of chromosome 20 :   537
+fitness value of chromosome 21 :   433
+fitness value of chromosome 22 :   432
+fitness value of chromosome 23 :   1047
+fitness value of chromosome 24 :   1460
+fitness value of chromosome 25 :   333
+fitness value of chromosome 26 :   229
+fitness value of chromosome 27 :   437
+fitness value of chromosome 28 :   126
+fitness value of chromosome 29 :   646
+fitness value of chromosome 30 :   1561
+fitness value of chromosome 31 :   1252
+fitness value of chromosome 32 :   427
+fitness value of chromosome 33 :   845
+fitness value of chromosome 34 :   1149
+fitness value of chromosome 35 :   1254
+fitness value of chromosome 36 :   334
+fitness value of chromosome 37 :   329
+fitness value of chromosome 38 :   1145
+fitness value of chromosome 39 :   234
+fitness value of chromosome 40 :   334
+fitness value of chromosome 41 :   643
+fitness value of chromosome 42 :   1058
+fitness value of chromosome 43 :   539
+fitness value of chromosome 44 :   233
+fitness value of chromosome 45 :   641
+fitness value of chromosome 46 :   434
+fitness value of chromosome 47 :   637
+fitness value of chromosome 48 :   331
+fitness value of chromosome 49 :   536
+#######  fittest chromosome in generation 26 is having fitness value:   1561
+[-1.068 -3.058  0.291 -0.447]
+[-1.212 -1.1    1.783 -0.632]
+[-1.068 -3.31   1.59  -0.972]
+[-1.563 -2.673  1.783 -2.473]
+[-1.068 -1.236  0.138 -2.459]
+[-1.711 -3.068  0.138 -0.232]
+[-1.212 -3.068  1.783 -0.632]
+[-1.563 -1.236  1.59  -2.427]
+[-1.068 -0.879  1.489 -0.235]
+[-0.825 -1.012  1.783 -0.952]
+[ 0.047 -2.673  0.681 -1.582]
+[-0.825 -2.673  1.59  -1.045]
+##############        GENERATION 27  ###############
+fitness value of chromosome 0 :   440
+fitness value of chromosome 1 :   844
+fitness value of chromosome 2 :   645
+fitness value of chromosome 3 :   1053
+fitness value of chromosome 4 :   332
+fitness value of chromosome 5 :   235
+fitness value of chromosome 6 :   533
+fitness value of chromosome 7 :   841
+fitness value of chromosome 8 :   641
+fitness value of chromosome 9 :   840
+fitness value of chromosome 10 :   538
+fitness value of chromosome 11 :   637
+fitness value of chromosome 12 :   949
+fitness value of chromosome 13 :   1146
+fitness value of chromosome 14 :   738
+fitness value of chromosome 15 :   745
+fitness value of chromosome 16 :   739
+fitness value of chromosome 17 :   535
+fitness value of chromosome 18 :   435
+fitness value of chromosome 19 :   740
+fitness value of chromosome 20 :   326
+fitness value of chromosome 21 :   741
+fitness value of chromosome 22 :   845
+fitness value of chromosome 23 :   334
+fitness value of chromosome 24 :   533
+fitness value of chromosome 25 :   533
+fitness value of chromosome 26 :   1047
+fitness value of chromosome 27 :   844
+fitness value of chromosome 28 :   742
+fitness value of chromosome 29 :   539
+fitness value of chromosome 30 :   230
+fitness value of chromosome 31 :   948
+fitness value of chromosome 32 :   644
+fitness value of chromosome 33 :   640
+fitness value of chromosome 34 :   640
+fitness value of chromosome 35 :   637
+fitness value of chromosome 36 :   642
+fitness value of chromosome 37 :   436
+fitness value of chromosome 38 :   431
+fitness value of chromosome 39 :   745
+fitness value of chromosome 40 :   228
+fitness value of chromosome 41 :   746
+fitness value of chromosome 42 :   1351
+fitness value of chromosome 43 :   737
+fitness value of chromosome 44 :   235
+fitness value of chromosome 45 :   1051
+fitness value of chromosome 46 :   635
+fitness value of chromosome 47 :   638
+fitness value of chromosome 48 :   1150
+fitness value of chromosome 49 :   1660
+#######  fittest chromosome in generation 27 is having fitness value:   1660
+[-1.068 -2.819  0.681 -1.582]
+[-1.068 -0.592  0.138 -2.459]
+[-1.068 -3.31   1.435 -0.972]
+[-1.395 -3.068  1.59  -0.232]
+[-1.563 -2.673  1.783 -2.473]
+[-1.312 -2.673  1.783 -2.473]
+[-0.85  -1.236  1.59  -0.972]
+[-0.825 -3.045  1.783 -0.952]
+[-1.711 -3.068  0.138 -0.92 ]
+[-1.212 -3.31   1.59  -1.858]
+[-1.212 -1.1    1.783 -0.632]
+[-0.07  -1.1    1.783 -0.632]
+##############        GENERATION 28  ###############
+fitness value of chromosome 0 :   1154
+fitness value of chromosome 1 :   635
+fitness value of chromosome 2 :   437
+fitness value of chromosome 3 :   537
+fitness value of chromosome 4 :   950
+fitness value of chromosome 5 :   948
+fitness value of chromosome 6 :   1459
+fitness value of chromosome 7 :   438
+fitness value of chromosome 8 :   543
+fitness value of chromosome 9 :   236
+fitness value of chromosome 10 :   536
+fitness value of chromosome 11 :   130
+fitness value of chromosome 12 :   436
+fitness value of chromosome 13 :   230
+fitness value of chromosome 14 :   1046
+fitness value of chromosome 15 :   635
+fitness value of chromosome 16 :   1867
+fitness value of chromosome 17 :   542
+fitness value of chromosome 18 :   740
+fitness value of chromosome 19 :   232
+fitness value of chromosome 20 :   539
+fitness value of chromosome 21 :   333
+fitness value of chromosome 22 :   536
+fitness value of chromosome 23 :   430
+fitness value of chromosome 24 :   232
+fitness value of chromosome 25 :   848
+fitness value of chromosome 26 :   1055
+fitness value of chromosome 27 :   536
+fitness value of chromosome 28 :   645
+fitness value of chromosome 29 :   540
+fitness value of chromosome 30 :   138
+fitness value of chromosome 31 :   328
+fitness value of chromosome 32 :   333
+fitness value of chromosome 33 :   537
+fitness value of chromosome 34 :   335
+fitness value of chromosome 35 :   334
+fitness value of chromosome 36 :   236
+fitness value of chromosome 37 :   126
+fitness value of chromosome 38 :   1049
+fitness value of chromosome 39 :   1346
+fitness value of chromosome 40 :   335
+fitness value of chromosome 41 :   230
+fitness value of chromosome 42 :   645
+fitness value of chromosome 43 :   330
+fitness value of chromosome 44 :   641
+fitness value of chromosome 45 :   945
+fitness value of chromosome 46 :   641
+fitness value of chromosome 47 :   222
+fitness value of chromosome 48 :   331
+fitness value of chromosome 49 :   433
+#######  fittest chromosome in generation 28 is having fitness value:   1867
+[-1.395 -3.068  1.049 -0.232]
+[-0.85  -1.236  1.59  -0.972]
+[-1.212 -2.669  0.138 -2.459]
+[-1.068 -2.819  0.681 -1.582]
+[-1.212 -2.673  0.907 -1.858]
+[-1.398 -1.236  1.783 -0.972]
+[-1.312 -2.673  1.783 -1.475]
+[-1.563 -2.673  1.783 -2.473]
+[-1.312 -2.673  1.783 -2.473]
+[-1.068 -3.467  1.783 -1.582]
+[-0.07  -0.592  0.138 -2.807]
+[-1.068 -1.468  0.681 -0.632]
+##############        GENERATION 29  ###############
+fitness value of chromosome 0 :   130
+fitness value of chromosome 1 :   134
+fitness value of chromosome 2 :   732
+fitness value of chromosome 3 :   848
+fitness value of chromosome 4 :   541
+fitness value of chromosome 5 :   945
+fitness value of chromosome 6 :   429
+fitness value of chromosome 7 :   538
+fitness value of chromosome 8 :   1663
+fitness value of chromosome 9 :   842
+fitness value of chromosome 10 :   1459
+fitness value of chromosome 11 :   437
+fitness value of chromosome 12 :   942
+fitness value of chromosome 13 :   539
+fitness value of chromosome 14 :   1151
+fitness value of chromosome 15 :   230
+fitness value of chromosome 16 :   534
+fitness value of chromosome 17 :   434
+fitness value of chromosome 18 :   744
+fitness value of chromosome 19 :   335
+fitness value of chromosome 20 :   1046
+fitness value of chromosome 21 :   228
+fitness value of chromosome 22 :   945
+fitness value of chromosome 23 :   536
+fitness value of chromosome 24 :   236
+fitness value of chromosome 25 :   332
+fitness value of chromosome 26 :   638
+fitness value of chromosome 27 :   333
+fitness value of chromosome 28 :   132
+fitness value of chromosome 29 :   537
+fitness value of chromosome 30 :   338
+fitness value of chromosome 31 :   1865
+fitness value of chromosome 32 :   438
+fitness value of chromosome 33 :   124
+fitness value of chromosome 34 :   333
+fitness value of chromosome 35 :   427
+fitness value of chromosome 36 :   843
+fitness value of chromosome 37 :   847
+fitness value of chromosome 38 :   535
+fitness value of chromosome 39 :   742
+fitness value of chromosome 40 :   237
+fitness value of chromosome 41 :   544
+fitness value of chromosome 42 :   333
+fitness value of chromosome 43 :   840
+fitness value of chromosome 44 :   647
+fitness value of chromosome 45 :   531
+fitness value of chromosome 46 :   439
+fitness value of chromosome 47 :   640
+fitness value of chromosome 48 :   439
+fitness value of chromosome 49 :   742
+#######  fittest chromosome in generation 29 is having fitness value:   1865
+[-0.596 -2.673  1.783 -1.475]
+[-1.312 -2.673  1.783 -2.473]
+[-0.07  -0.592  0.138 -2.807]
+[-0.85  -3.479  1.59  -0.972]
+[-0.522 -1.236  1.783 -0.972]
+[-1.398 -1.236  1.783 -0.972]
+[-0.07  -1.236  2.674 -0.972]
+[-1.563 -2.669  1.783 -2.704]
+[-1.068 -2.819  0.681 -1.582]
+[-1.068 -3.667  0.681 -2.473]
+[-1.08  -1.236  1.59  -0.972]
+[-1.068 -3.467  1.783 -1.582]
+##############        GENERATION 30  ###############
+fitness value of chromosome 0 :   640
+fitness value of chromosome 1 :   643
+fitness value of chromosome 2 :   440
+fitness value of chromosome 3 :   737
+fitness value of chromosome 4 :   339
+fitness value of chromosome 5 :   227
+fitness value of chromosome 6 :   428
+fitness value of chromosome 7 :   1045
+fitness value of chromosome 8 :   1355
+fitness value of chromosome 9 :   739
+fitness value of chromosome 10 :   947
+fitness value of chromosome 11 :   435
+fitness value of chromosome 12 :   1154
+fitness value of chromosome 13 :   1042
+fitness value of chromosome 14 :   1758
+fitness value of chromosome 15 :   538
+fitness value of chromosome 16 :   946
+fitness value of chromosome 17 :   440
+fitness value of chromosome 18 :   638
+fitness value of chromosome 19 :   848
+fitness value of chromosome 20 :   25
+fitness value of chromosome 21 :   434
+fitness value of chromosome 22 :   952
+fitness value of chromosome 23 :   1152
+fitness value of chromosome 24 :   945
+fitness value of chromosome 25 :   330
+fitness value of chromosome 26 :   530
+fitness value of chromosome 27 :   541
+fitness value of chromosome 28 :   736
+fitness value of chromosome 29 :   537
+fitness value of chromosome 30 :   948
+fitness value of chromosome 31 :   332
+fitness value of chromosome 32 :   940
+fitness value of chromosome 33 :   943
+fitness value of chromosome 34 :   847
+fitness value of chromosome 35 :   1454
+fitness value of chromosome 36 :   745
+fitness value of chromosome 37 :   842
+fitness value of chromosome 38 :   636
+fitness value of chromosome 39 :   543
+fitness value of chromosome 40 :   338
+fitness value of chromosome 41 :   540
+fitness value of chromosome 42 :   538
+fitness value of chromosome 43 :   739
+fitness value of chromosome 44 :   331
+fitness value of chromosome 45 :   840
+fitness value of chromosome 46 :   533
+fitness value of chromosome 47 :   335
+fitness value of chromosome 48 :   739
+fitness value of chromosome 49 :   229
+#######  fittest chromosome in generation 30 is having fitness value:   1758
+[-1.068 -1.236  1.783 -0.991]
+[-1.171 -1.236  1.783 -1.475]
+[-1.068 -2.819  0.681 -1.582]
+[-0.07  -0.592  1.59  -3.797]
+[-1.398 -1.964  1.783 -0.972]
+[-1.563 -2.669  1.783 -2.704]
+[-1.08  -1.884  1.783 -0.972]
+[-0.103 -3.467  1.783 -1.475]
+[-1.041 -1.236  0.681 -2.473]
+[-1.08  -1.236  1.59  -0.972]
+[-0.596 -1.324  1.783 -1.475]
+[-1.791 -3.467  1.783 -1.582]
+##############        GENERATION 31  ###############
+fitness value of chromosome 0 :   544
+fitness value of chromosome 1 :   342
+fitness value of chromosome 2 :   441
+fitness value of chromosome 3 :   233
+fitness value of chromosome 4 :   539
+fitness value of chromosome 5 :   634
+fitness value of chromosome 6 :   1051
+fitness value of chromosome 7 :   845
+fitness value of chromosome 8 :   230
+fitness value of chromosome 9 :   434
+fitness value of chromosome 10 :   635
+fitness value of chromosome 11 :   131
+fitness value of chromosome 12 :   847
+fitness value of chromosome 13 :   846
+fitness value of chromosome 14 :   950
+fitness value of chromosome 15 :   441
+fitness value of chromosome 16 :   1048
+fitness value of chromosome 17 :   535
+fitness value of chromosome 18 :   224
+fitness value of chromosome 19 :   642
+fitness value of chromosome 20 :   745
+fitness value of chromosome 21 :   735
+fitness value of chromosome 22 :   430
+fitness value of chromosome 23 :   947
+fitness value of chromosome 24 :   745
+fitness value of chromosome 25 :   636
+fitness value of chromosome 26 :   439
+fitness value of chromosome 27 :   1156
+fitness value of chromosome 28 :   432
+fitness value of chromosome 29 :   327
+fitness value of chromosome 30 :   338
+fitness value of chromosome 31 :   437
+fitness value of chromosome 32 :   234
+fitness value of chromosome 33 :   1660
+fitness value of chromosome 34 :   636
+fitness value of chromosome 35 :   642
+fitness value of chromosome 36 :   1665
+fitness value of chromosome 37 :   337
+fitness value of chromosome 38 :   536
+fitness value of chromosome 39 :   437
+fitness value of chromosome 40 :   545
+fitness value of chromosome 41 :   944
+fitness value of chromosome 42 :   843
+fitness value of chromosome 43 :   742
+fitness value of chromosome 44 :   539
+fitness value of chromosome 45 :   1356
+fitness value of chromosome 46 :   332
+fitness value of chromosome 47 :   535
+fitness value of chromosome 48 :   642
+fitness value of chromosome 49 :   337
+#######  fittest chromosome in generation 31 is having fitness value:   1665
+[-0.596 -1.964  1.004 -1.475]
+[-1.563 -1.324  0.965 -1.475]
+[-0.441 -1.236  1.783 -0.991]
+[-0.602 -1.236  0.681 -2.473]
+[-1.08  -1.884  1.783 -0.972]
+[-1.398 -0.592  1.535 -0.972]
+[-1.08  -1.581  1.783 -0.991]
+[-1.791 -4.135  1.783 -2.704]
+[-0.103 -4.293  1.59  -0.972]
+[-1.068 -0.499  1.783 -0.991]
+[-1.398 -1.586  1.783 -1.475]
+[-0.103 -3.467  1.783 -1.475]
+##############        GENERATION 32  ###############
+fitness value of chromosome 0 :   1049
+fitness value of chromosome 1 :   742
+fitness value of chromosome 2 :   1051
+fitness value of chromosome 3 :   338
+fitness value of chromosome 4 :   946
+fitness value of chromosome 5 :   340
+fitness value of chromosome 6 :   230
+fitness value of chromosome 7 :   334
+fitness value of chromosome 8 :   950
+fitness value of chromosome 9 :   951
+fitness value of chromosome 10 :   841
+fitness value of chromosome 11 :   330
+fitness value of chromosome 12 :   232
+fitness value of chromosome 13 :   535
+fitness value of chromosome 14 :   530
+fitness value of chromosome 15 :   640
+fitness value of chromosome 16 :   431
+fitness value of chromosome 17 :   128
+fitness value of chromosome 18 :   331
+fitness value of chromosome 19 :   941
+fitness value of chromosome 20 :   1761
+fitness value of chromosome 21 :   231
+fitness value of chromosome 22 :   236
+fitness value of chromosome 23 :   844
+fitness value of chromosome 24 :   1254
+fitness value of chromosome 25 :   845
+fitness value of chromosome 26 :   948
+fitness value of chromosome 27 :   1045
+fitness value of chromosome 28 :   234
+fitness value of chromosome 29 :   642
+fitness value of chromosome 30 :   635
+fitness value of chromosome 31 :   232
+fitness value of chromosome 32 :   745
+fitness value of chromosome 33 :   124
+fitness value of chromosome 34 :   335
+fitness value of chromosome 35 :   438
+fitness value of chromosome 36 :   334
+fitness value of chromosome 37 :   438
+fitness value of chromosome 38 :   1653
+fitness value of chromosome 39 :   440
+fitness value of chromosome 40 :   1153
+fitness value of chromosome 41 :   336
+fitness value of chromosome 42 :   537
+fitness value of chromosome 43 :   137
+fitness value of chromosome 44 :   432
+fitness value of chromosome 45 :   636
+fitness value of chromosome 46 :   838
+fitness value of chromosome 47 :   1037
+fitness value of chromosome 48 :   125
+fitness value of chromosome 49 :   328
+#######  fittest chromosome in generation 32 is having fitness value:   1761
+[-0.103 -4.293  2.089 -0.972]
+[-1.068 -1.586  1.783 -0.361]
+[-0.103 -1.61   0.965 -0.972]
+[-2.729 -4.135  1.783 -2.704]
+[-0.441 -1.236  1.783 -0.991]
+[-0.596 -1.964  1.004 -1.475]
+[-0.103 -2.117  1.783 -1.475]
+[-1.068 -0.592  1.034 -0.972]
+[-1.068 -0.499  1.783 -0.991]
+[-0.103 -4.293  1.59  -0.972]
+[-1.563 -1.581  1.783 -0.709]
+[-1.08  -1.884  1.783 -0.972]
