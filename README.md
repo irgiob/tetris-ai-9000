@@ -4,10 +4,21 @@ Ever since high school, me and a friend of mine have been competing to get the h
 
 Since then, I haven't gotten much better at the game (worst in fact), but I have gained some more experience in computer programming. Thats why I decided to start my dive into AI and machine learning by creating a Tetris AI that can finally beat my friend's high score in the game (and also to gain a better understand in modern software technology-but mostly the first thing).
 
+The goal is to get the AI to at clear at least 200 Lines, enough line clears to beat my (and my friend's) high score.
+
 # specific info on the project
 The program first takes a screenshot of my screen, and converts it into a numpy array the computer can understand by analyzing the color of certain pixels on the game board in specific locations (using mss, pillow, OpenCV, & numpy). By reading the image, the program has info on the game-state (the position of the tetriminos), as well as the next 3 pieces that will be available for every game-frame. 
 
 This data will then be fed into [this genetic algorithm](https://theailearner.com/2018/11/09/snake-game-with-genetic-algorithm/) used to train the AI using a weights-and-biases method. The heuristics and fitness function used for this program are inspired by another Tetris AI made by Yiyuan Lee, which can be [found here](https://codemyroad.wordpress.com/2013/04/14/tetris-ai-the-near-perfect-player/), with some changes since this is playing off an official online version rather than one made from scratch (which I will also do at some point). The genetic algorithm trains by playing the game over and over again, and based on the value of the weights will decide what course of action to take in the game, getting better over time.
+
+# version history
+Version 1: The genetic algorithm was used to choose a specific move; each frame the genetic algorithm would calculate a score for going left, right or rotate, and choose the move that had the highest score. This version did very poorly, achieving only a high score of 3 lines even with 25 generations.
+
+Version 2: The program would start the piece on the most left side and move its way to the right while also rotating using keyboard commands, getting the score of each position as it passed it. This was a better strategy, however the high score was still only 3 lines even after the same amount of generations.
+
+Version 3: This version switched from using keys to play the game to using the mouse. When using the mouse, the game automatically orients the piece to the best orientation based on which column the mouse is in, so I didn't have to worry about testing different orientation. It also allowed the piece to get across the entire board, even if there were pieces blocking the path. This version had much better results, with a high score 18 lines after 32 generations
+
+Version 4: Version 3 had bugs where it would sometimes return to the wrong column, or completely skip over some pieces, due to the program taking too long causing the piece to set in place. Changing the program to check the score every 2 columns instead of every single column managed to fix this issue, reaching an even higher score. After further tinkering, Version 3 reached a high score of 150 line clears.
 
 # to-do list
 - [x] allow the program to capture the game's image data from the screen
@@ -15,8 +26,9 @@ This data will then be fed into [this genetic algorithm](https://theailearner.co
 - [x] add feature to convert the image data of the game-state to a format readable by the program
 - [x] add feature to allow the program to know what piece(s) are coming next
 - [x] build basic genetic algorithm
+- [x] test genetic algorithm
 - [ ] edit algorithm with proper heuristics, fitness function, proper inputs and outputs
 - [ ] train genetic algorithm
 - [ ] crush all opponents in Tetris
 
-This was just an idea for a fun project I could do to finally start learning about AI and machine learning. Hopefully it can also help you undestand it better if you're just starting out too.
+This was just an idea for a fun project I could do to finally start learning about AI and machine learning. Hopefully it can also help you understand it better if you're just starting out too.

@@ -5,10 +5,9 @@ import cv2
 import numpy as np
 import pynput.keyboard as pyk
 import pynput.mouse as pym
-from math import tan
 
 def get_raw_data():
-    # scren capture main game area and next piece area and get game data
+    # screen capture main game area and next piece area and get game data
     sct = mss()
     sct_main = sct.grab(main_game)
     img_main = np.array(Image.frombytes("RGB", sct_main.size, sct_main.bgra, "raw", "BGRX"))
@@ -40,11 +39,13 @@ def image_to_game_data(img_data, next_img_list):
 # calculate the score of potential move based on heuristics and weights
 def calc_score(h, p):
     score=p[0]*h['H']+p[1]*h['AH']+p[2]*h['LC']+p[3]*h['B']
-    score = round(score,2)
     return score
 
 # calc heuristics for identifying whether a certain move is good or bad
 def calc_heuristics(game_data, lines_cleared):
+    if lines_cleared > 0:
+        game_data = get_cleared_data(game_data)
+    
     holes = 0
     heights = [0,0,0,0,0,0,0,0,0,0]
     for col in range(GAME_DIM[1]):
@@ -66,6 +67,13 @@ def calc_bumpiness(heights):
     for i in range(len(heights)-1):
         bumpiness += abs(heights[i] - heights[i+1])
     return bumpiness
+
+def get_cleared_data(game_data):
+    for row in range(GAME_DIM[0]):
+        if (game_data[row] == FULL_ROW).all():
+            game_data[1:row+1] = game_data[0:row]
+            game_data[0] = EMPTY_ROW
+    return game_data
 
 # keyboard & mouse controlling commands
 def press_space():
