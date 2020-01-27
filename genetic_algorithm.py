@@ -1,5 +1,4 @@
-# Genetic Algorithm
-from play_with_ml import *
+from play import run_game
 import random
 
 # calculate fitness score by playing the game
@@ -40,7 +39,6 @@ def crossover(parents, offspring_size):
                         offspring[k, j] = parents[parent2_idx, j]
                 break
     return offspring
-
 
 def mutation(offspring_crossover):
     # mutating the offsprings generated from crossover to maintain variation in the population

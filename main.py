@@ -1,14 +1,25 @@
 import numpy as np
-from game_config import *
-from play_with_ml import *
 from genetic_algorithm import *
 
-# Notes
-# start at level 25 for training and level 15 for playing
+# To output to file and terminal
 # python3 -u  main.py | tee Output.txt
 
-MODE = 'TRAIN' # TRAIN or PLAY
+MODE = 'PLAY' # TRAIN or PLAY
 start_over = False # Set to False if continuing from existing data
+
+# Last Generation Data
+last_gen = [
+    [0.01,-3.422,2.015,-0.965],
+    [-0.505,-3.221,1.05,-0.251],
+    [-2.178,-2.636,0.524,-0.965],
+    [-2.309,-1.654,0.524,-0.514],
+    [-1.917,-2.636,0.524,-0.965],
+    [-2.309,-3.221,1.05,-0.251]
+]
+
+# best weights from previous training
+weights_1 = [-2.72,-2.731,0.259,-1.769]
+weights_2 = [-1.91,-1.704,2.342,-0.498]
 
 def train():
     # initial variables
@@ -51,12 +62,14 @@ def train():
         new_population[parents.shape[0]:, :] = offspring_mutation
 
 def play():
-    # weights from previous training
-    weights = [-2.556,-0.665,2.194,-0.326]
-    run_game(weights, display=True)
+    weights = weights_2 # choose weight to use
+    terminal_view = True # display scanned data in terminal
+    run_game(weights, play_mode=True, display=terminal_view)
 
 if __name__ == "__main__":
     if MODE == 'TRAIN':
+        # start from play again screen
         train()
     elif MODE == 'PLAY':
+        # start from pause screen
         play()

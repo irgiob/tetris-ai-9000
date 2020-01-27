@@ -1,13 +1,14 @@
 import numpy as np
 import time
-from game_config import *
-from get_game_data import *
+from functions import *
 from random import choice
 
+# scoring variables
 score_per_line = 100
 stay_alive_score = 1
 
 # mouse controller variables
+GAME_DIM = (20,10)
 BOX_START_X = 284
 BOX_END_X = 518
 BOX_Y = 185
@@ -15,29 +16,59 @@ BOX_DIST = 26
 JUMP_DIST = 2 * BOX_DIST
 JUMP_DIST_REV = -1 * JUMP_DIST
 TIME_GAP = 0.05
+RESUME = (410,375)
 
 # moveset for interchanging scanning direction
 MOVE_SET = [(BOX_START_X,JUMP_DIST,BOX_END_X,-1),(BOX_END_X,JUMP_DIST_REV,BOX_START_X,1)]
 
-def run_game(pop, display=False):
+# number of color values for each tetromino piece 
+tetromino_str = {
+    571 : 'Straight Piece',
+    543 : 'Square Piece',
+    548 : 'T Piece',
+    563 : 'J Piece',
+    533 : 'L Piece',
+    510 : 'S Piece',
+    387 : 'Z Piece',
+    1   : 'Empty'
+}
+
+def run_game(pop, play_mode=False, display = False):
     # general initializations
     fitness = 0
     lines_cleared = 0
     side = 0
     
     # start game at right time
-    press_space()
-    time.sleep(2)
+    if play_mode == False:
+        press_space()
+        time.sleep(2)
+    elif play_mode == True:
+        mouse_set(RESUME)
+        mouse_click()
+        mouse_click()
+        time.sleep(TIME_GAP)
+
     game_data, next_val_dict = get_raw_data()
     last_val_dict = next_val_dict
 
     while True:
-        #skips animations
+        #skips animations & breaks loop
         while last_val_dict == next_val_dict:
             last_val_dict = next_val_dict
+            
+            # breaks loop if game over
+            for val in next_val_dict:
+                if not (val in tetromino_str):
+                    return int(fitness)
             game_data, next_val_dict = get_raw_data()
-            while next_val_dict[0] == last_val_dict[0] and next_val_dict[1] == last_val_dict[1] and next_val_dict[2] != last_val_dict[2]:
-                game_data, next_val_dict = get_raw_data()
+
+            # correct occasional issue with next piece detection
+            check = []
+            for i in range(3):
+                check.append(last_val_dict[i] != next_val_dict[i])
+            if sum(check) == 1 or sum(check) == 2:
+                next_val_dict = last_val_dict
 
         # initialization for every piece
         mouse_set((MOVE_SET[side][0],BOX_Y))
@@ -58,9 +89,6 @@ def run_game(pop, display=False):
 
             # checks for overlap issue
             if next_val_dict != last_val_dict:
-                '''print(display_game(game_data, next_val_dict, tetromino_str, lines_cleared))
-                print("ERROR")
-                return'''
                 skip_check = True
                 break
 
@@ -93,11 +121,9 @@ def run_game(pop, display=False):
                     best_scores.append(i)
             best = choice(best_scores)
 
-            # move mouse to best score position
+            # move mouse to best score position and check for line clears
             mouse_set((MOVE_SET[side][0]+(MOVE_SET[side][1]*best),BOX_Y))
-            time.sleep(2*TIME_GAP)
-
-            # check for line clears
+            time.sleep(TIME_GAP)
             game_data, next_val_dict = get_raw_data()
             cleared_now = check_line_clear(game_data)
             if cleared_now > 0:
@@ -113,29 +139,3 @@ def run_game(pop, display=False):
             
     # returns lines cleared as the fitness score
     return int(fitness)
-
-# check if there is a line clear
-def check_line_clear(game_data):
-    lines_cleared = 0
-    if np.array_equal(game_data, FULL_BOX) or np.array_equal(game_data, EMPTY_BOX):
-        return 0
-    for i in range(GAME_DIM[0]-1,-1,-1):
-        if np.array_equal(game_data[i],FULL_ROW):
-            lines_cleared += 1
-    return lines_cleared
-
-# prints game status to terminal in a readable format
-def display_game(game_data, next_val_dict, tetromino_str, lines_cleared):
-    game_disp = ''
-    for row in game_data:
-        for col in row:
-            if col == 0:
-                game_disp += '  '
-            elif col == 1:
-                game_disp += 'X '
-        game_disp += '\n'
-    game_disp += f'Lines Cleared: {lines_cleared}\n'
-    game_disp += f'Next:{tetromino_str[next_val_dict[0]]} | '
-    game_disp += f' {tetromino_str[next_val_dict[1]]} | '
-    game_disp += f' {tetromino_str[next_val_dict[2]]}\n'
-    return game_disp

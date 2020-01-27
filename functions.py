@@ -1,15 +1,32 @@
-from game_config import *
 from mss import mss
 from PIL import Image
-import cv2
 import numpy as np
 import pynput.keyboard as pyk
 import pynput.mouse as pym
+import time
+
+# configurations for main game screen capture and data logging
+MAIN_GAME = {"top": 172, "left": 270, "width": 261, "height": 521} # coords on screen
+GAME_DIM = (20,10) # 20x10 grid
+EMPTY_SPACE = [0,0,0] # RGB color value of empty box
+FULL_ROW = [1,1,1,1,1,1,1,1,1,1]
+EMPTY_ROW = [0,0,0,0,0,0,0,0,0,0]
+EMPTY_BOX = np.zeros(GAME_DIM)
+FULL_BOX = np.ones(GAME_DIM)
+START_POS = 26 # xy coordinate of first box
+BOX_DIST = 52 # pixels
+
+# configurations for next_piece screen capture and data logging
+next_piece = {"top": 235, "left": 600, "width": 115, "height": 65} # coords on screen
+NUM_NEXT = 3 # number of visible next pieces
+NEXT_HEIGHT = next_piece['height'] # height between next pieces
+NEXT_START = next_piece['top'] # position of first next piece
+MAX_PAL = 600 # maximum color values for next pieces
 
 def get_raw_data():
     # screen capture main game area and next piece area and get game data
     sct = mss()
-    sct_main = sct.grab(main_game)
+    sct_main = sct.grab(MAIN_GAME)
     img_main = np.array(Image.frombytes("RGB", sct_main.size, sct_main.bgra, "raw", "BGRX"))
     next_img_list = [0,0,0]
     for i in range(NUM_NEXT):
@@ -35,6 +52,32 @@ def image_to_game_data(img_data, next_img_list):
     # uses the number of unique color values for each piece to identify which piece it is
     next_val_dict = [len(img.getcolors(MAX_PAL)) for img in next_img_list]
     return game_data, next_val_dict
+
+# prints game status to terminal in a readable format
+def display_game(game_data, next_val_dict, tetromino_str, lines_cleared):
+    game_disp = ''
+    for row in game_data:
+        for col in row:
+            if col == 0:
+                game_disp += '  '
+            elif col == 1:
+                game_disp += 'X '
+        game_disp += '\n'
+    game_disp += f'Lines Cleared: {lines_cleared}\n'
+    game_disp += f'Next:{tetromino_str[next_val_dict[0]]} | '
+    game_disp += f' {tetromino_str[next_val_dict[1]]} | '
+    game_disp += f' {tetromino_str[next_val_dict[2]]}\n'
+    return game_disp
+
+# check if there is a line clear
+def check_line_clear(game_data):
+    lines_cleared = 0
+    if np.array_equal(game_data, FULL_BOX) or np.array_equal(game_data, EMPTY_BOX):
+        return 0
+    for i in range(GAME_DIM[0]-1,-1,-1):
+        if np.array_equal(game_data[i],FULL_ROW):
+            lines_cleared += 1
+    return lines_cleared
 
 # calculate the score of potential move based on heuristics and weights
 def calc_score(h, p):
@@ -68,6 +111,7 @@ def calc_bumpiness(heights):
         bumpiness += abs(heights[i] - heights[i+1])
     return bumpiness
 
+# get data after line clear
 def get_cleared_data(game_data):
     for row in range(GAME_DIM[0]):
         if (game_data[row] == FULL_ROW).all():
