@@ -1,9 +1,6 @@
 from mss import mss
 from PIL import Image
 import numpy as np
-import pynput.keyboard as pyk
-import pynput.mouse as pym
-import time
 
 # configurations for main game screen capture and data logging
 MAIN_GAME = {"top": 172, "left": 270, "width": 261, "height": 521} # coords on screen
@@ -16,28 +13,11 @@ FULL_BOX = np.ones(GAME_DIM)
 START_POS = 26 # xy coordinate of first box
 BOX_DIST = 52 # pixels
 
-# configurations for next_piece screen capture and data logging
-next_piece = {"top": 235, "left": 600, "width": 115, "height": 65} # coords on screen
-NUM_NEXT = 3 # number of visible next pieces
-NEXT_HEIGHT = next_piece['height'] # height between next pieces
-NEXT_START = next_piece['top'] # position of first next piece
-MAX_PAL = 600 # maximum color values for next pieces
-
 def get_raw_data():
     # screen capture main game area and next piece area and get game data
     sct = mss()
     sct_main = sct.grab(MAIN_GAME)
-    img_main = np.array(Image.frombytes("RGB", sct_main.size, sct_main.bgra, "raw", "BGRX"))
-    next_img_list = [0,0,0]
-    for i in range(NUM_NEXT):
-        sct_next = sct.grab(next_piece)
-        next_img_list[i] = Image.frombytes("RGB", sct_next.size, sct_next.bgra, "raw", "BGRX")
-        next_piece['top'] += NEXT_HEIGHT
-    next_piece['top'] = NEXT_START
-    game_data, next_val_dict = image_to_game_data(img_main, next_img_list)
-    return game_data, next_val_dict
-
-def image_to_game_data(img_data, next_img_list):
+    img_data = np.array(Image.frombytes("RGB", sct_main.size, sct_main.bgra, "raw", "BGRX"))
     # encode image data into digital reconstruction of game
     game_data = np.zeros(GAME_DIM)
     game_coords = (START_POS,START_POS)
@@ -49,12 +29,10 @@ def image_to_game_data(img_data, next_img_list):
                 game_data[i][j] = 1
             game_coords = (game_coords[0],game_coords[1]+BOX_DIST)
         game_coords = (game_coords[0]+BOX_DIST,START_POS)
-    # uses the number of unique color values for each piece to identify which piece it is
-    next_val_dict = [len(img.getcolors(MAX_PAL)) for img in next_img_list]
-    return game_data, next_val_dict
+    return game_data
 
 # prints game status to terminal in a readable format
-def display_game(game_data, next_val_dict, tetromino_str, lines_cleared):
+def display_game(game_data, lines_cleared):
     game_disp = ''
     for row in game_data:
         for col in row:
@@ -64,9 +42,6 @@ def display_game(game_data, next_val_dict, tetromino_str, lines_cleared):
                 game_disp += 'X '
         game_disp += '\n'
     game_disp += f'Lines Cleared: {lines_cleared}\n'
-    game_disp += f'Next:{tetromino_str[next_val_dict[0]]} | '
-    game_disp += f' {tetromino_str[next_val_dict[1]]} | '
-    game_disp += f' {tetromino_str[next_val_dict[2]]}\n'
     return game_disp
 
 # check if there is a line clear
@@ -118,26 +93,3 @@ def get_cleared_data(game_data):
             game_data[1:row+1] = game_data[0:row]
             game_data[0] = EMPTY_ROW
     return game_data
-
-# keyboard & mouse controlling commands
-def press_space():
-    keyboard = pyk.Controller()
-    keyboard.press(pyk.Key.space)
-    keyboard.release(pyk.Key.space)
-
-def mouse_set(coordinates):
-    mouse = pym.Controller()
-    mouse.position = coordinates
-
-def mouse_move(offset):
-    mouse = pym.Controller()
-    mouse.move(offset[0],offset[1])
-
-def mouse_click():
-    mouse = pym.Controller()
-    mouse.press(pym.Button.left)
-    mouse.release(pym.Button.left)
-
-def mouse_pos():
-    mouse = pym.Controller() 
-    return mouse.position

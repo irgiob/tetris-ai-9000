@@ -63,7 +63,7 @@ def train():
 
 def play():
     weights = weights_2 # choose weight to use
-    terminal_view = True # display scanned data in terminal
+    terminal_view = False # display scanned data in terminal
     run_game(weights, play_mode=True, display=terminal_view)
 
 if __name__ == "__main__":
