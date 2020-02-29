@@ -23,6 +23,13 @@ After training the AI for almost 3000 games and going through 6 versions of the 
 
 Though I still want to improve the AI to the point where it could reach a score of 1 Million, the main goal has been reached. The AI can now basically complete the game every time. The only problem is the moves it makes aren't the most efficient, as it will just go for any type of line clear instead of going for line clears that give the most scores, like triple or quadruple line clears. I will try to improve this in the future by training the AI with higher rewards for better-scoring line clears, and perhaps training the AI to use the hold-piece mechanic.
 
+## how to use the program
+1. Open the Tetris game website and python script, and arrange your window so both the game and whatever app you're using to run the python program are both fully visible. Set the Tetris game to be on the pause menu. 
+2. Run the display_config.py script and follow the instructions to get the variables needed to run the program on your specific device.
+3. Copy paste the indicated output from display_config.py into its proper place under DISPLAY CONFIG in functions.py.
+4. If you want to use the already trained AI, all the settings are already set for that. Simply run the main.py program.
+5. If you want to train the AI yourself, set MODE in main.py to 'TRAIN' instead of 'PLAY'. Then you can set whether you'll be starting from scratch or continuing from previous generation data. You can also just specific genetic algorithm variables such as population and mating pool.
+
 ## version history
 Version 1: The genetic algorithm was used to choose a specific move; each frame the genetic algorithm would calculate a score for going left, right or rotate, and choose the move that had the highest score. This version did very poorly, achieving only a high score of 3 lines even with 25 generations.
 
@@ -44,11 +51,9 @@ Version 6: Removed next piece visibility, to improve the speed. Also changed it 
 - PIL: although not used for screen capturing, it was still used to convert the image data into a numpy array
 - Pynput: keyboard and mouse controlling library
 
-## to-do list
-- [x] build basic program and genetic algorithm
-- [x] test and train genetic algorithm
-- [x] crush all opponents in Tetris
-- [x] improve efficiency so AI can play higher levels 
-- [ ] program the AI to target 4-Line-Clears instead of just any line clears
+## whats next?
+At this point the program is pretty much finished and fully operational, even with configuration options so you can use it on your own devices. The program however was only designed to get as many line clears as possible, instead of getting the most high-scoring line clears as possible.
+
+If I were to continue working on the Tetris AI, I would try to train the AI to make smarter decisions that lead to more points. This would include adding more heuristics, a better scoring system, utilizing the look-ahead pieces, and adding a button to use the hold mechanic.
 
 This was just an idea for a fun project I could do to finally start learning about AI and machine learning. Hopefully it can also help you understand it better if you're just starting out too.
