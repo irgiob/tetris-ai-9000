@@ -2,16 +2,31 @@ from mss import mss
 from PIL import Image
 import numpy as np
 
-# configurations for main game screen capture and data logging
-MAIN_GAME = {"top": 172, "left": 270, "width": 261, "height": 521} # coords on screen
+## DISPLAY CONFIG ##
+# display configuration variables (adjust position of game elements on your specific device)
+TOP = 172
+LEFT = 270
+WIDTH = 261
+HEIGHT = 521
+BOX_START_X = 284
+BOX_Y = 185
+RESUME = (410,375)
+
+# other game position variables (do not edit)
+MAIN_GAME = {"top": TOP, "left": LEFT, "width": WIDTH, "height": HEIGHT} # coords on screen
+START_POS = JUMP_DIST = round(WIDTH / 10)
+BOX_DIST = JUMP_DIST * 2
+BOX_END_X = LEFT + WIDTH - round(JUMP_DIST / 2)
+
+# game-state variables
 GAME_DIM = (20,10) # 20x10 grid
 EMPTY_SPACE = [0,0,0] # RGB color value of empty box
 FULL_ROW = [1,1,1,1,1,1,1,1,1,1]
 EMPTY_ROW = [0,0,0,0,0,0,0,0,0,0]
 EMPTY_BOX = np.zeros(GAME_DIM)
 FULL_BOX = np.ones(GAME_DIM)
-START_POS = 26 # xy coordinate of first box
-BOX_DIST = 52 # pixels
+GAME_OVER = np.array(17 * [[0]*10] + 3 * [[1,0,0,0,0,0,0,0,0,1]], dtype=np.float64)
+TIME_GAP = 0.02
 
 def get_raw_data():
     # screen capture main game area and next piece area and get game data
