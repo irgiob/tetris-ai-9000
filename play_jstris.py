@@ -3,6 +3,7 @@ import numpy as np
 import pynput.keyboard as pyk
 from functions import *
 
+# global variables
 NEXT_PIECES = {"top": 240, "left": 420, "width": 1, "height": 370} # coords on screen
 HOR_RANGE = [i for i in range(-5,6)]
 LOADING_SCREEN = np.array(11 * [[0]*10] + 3 * [[1]*10] + 6 * [[0]*10], dtype=np.float64)
@@ -15,6 +16,7 @@ stay_alive_score = 1
 # keyboard controller variables
 keyboard = pyk.Controller()
 
+# run the game using AI
 def run_game(pop, play_mode=False, display = False):
     # general initializations
     fitness = 0
@@ -34,30 +36,22 @@ def run_game(pop, play_mode=False, display = False):
     keyboard.release(pyk.Key.space)
 
     while True:
-        moves = []
-        for piece in next_piece_list[0]:
-            for rotation in rotations[piece]:
-                for pos in HOR_RANGE:
-                    position = move_hor(rotations[piece][rotation],pos)
-                    if valid_position(position,game_data):
-                        position = move_down(position,game_data)
-                        new_state = put_on_board(position,game_data)
-                        h = calc_heuristics(new_state,lines_cleared)
-                        score = calc_score(h,pop)
-                        moves.append([score, piece, rotation, pos])
-
-        best = max(moves)
+        # get the best score using next pieces and calculate no. of lines cleared
+        best = calc_best_score(next_piece_list, game_data, pop)
         position = move_down(move_hor(rotations[best[1]][best[2]],best[3]), game_data)
         game_data = put_on_board(position,game_data)
-        print(display_game(game_data,lines_cleared))
         lines_cleared += check_line_clear_jstris(game_data)
         
+        # prints game board to stdout if display is true
+        if display:
+            print(display_game(game_data,lines_cleared))
+        
+        # moves and rotates tetrimino in game to correct position
         for i in range(best[2]):
             keyboard.press(pyk.Key.up)
             keyboard.release(pyk.Key.up)
         if best[3] < 0:
-            best[3] *= -1
-            for i in range(best[3]):
+            for i in range(best[3] * -1):
                 keyboard.press(pyk.Key.left)
                 keyboard.release(pyk.Key.left)
         else:
@@ -65,14 +59,30 @@ def run_game(pop, play_mode=False, display = False):
                 keyboard.press(pyk.Key.right)
                 keyboard.release(pyk.Key.right)
 
+        # updates game state and next pieces and locks move
         time.sleep(REST)
         game_data = clean_game_data(get_raw_data())
         next_piece_list = get_next_pieces()
-        time.sleep(REST)
 
         keyboard.press(pyk.Key.space)
         keyboard.release(pyk.Key.space)
 
+def calc_best_score(next_piece_list, game_data, pop):
+    moves = []
+    for piece in next_piece_list[0]:
+        for rotation in rotations[piece]:
+            for pos in HOR_RANGE:
+                position = move_hor(rotations[piece][rotation],pos)
+                if valid_position(position,game_data):
+                    position = move_down(position,game_data)
+                    new_state = put_on_board(position,game_data)
+                    lines_cleared = check_line_clear_jstris(game_data)
+                    h = calc_heuristics(new_state,lines_cleared)
+                    score = calc_score(h,pop)
+                    moves.append([score, piece, rotation, pos])
+    return max(moves)
+
+# returns list of next tetriminos
 def get_next_pieces():
     # screen capture main game area and next piece area and get game data
     sct = mss()
@@ -80,8 +90,10 @@ def get_next_pieces():
     img_data = np.array(Image.frombytes("RGB", sct_main.size, sct_main.bgra, "raw", "BGRX"))
     output = []
     i = 0
+    # searches a vertical strip of the screenshot to see colors
     while i < img_data.shape[0]:
         if img_data[i][0][0] in PIECE_COLOR['ALL']:
+            # when colors matching the pieces are found, add them to output list
             output.append(PIECE_COLOR['ALL'][img_data[i][0][0]])
             while (img_data[i][0] != EMPTY_SPACE).all() and i < img_data.shape[0]:
                 i += 1
@@ -89,6 +101,7 @@ def get_next_pieces():
             i += 1
     return output
 
+# removes non-ghost piece for proper processing
 def clean_game_data(game_data):
     i = 0
     while (game_data[i] == EMPTY_ROW).all():
@@ -102,6 +115,7 @@ def clean_game_data(game_data):
             exit()
     return game_data
 
+# moves a tetrimino object on the game board in a certain direction
 def move_hor(position, direction):
     output = [[0,0],[0,0],[0,0],[0,0]]
     for i in range(len(position)):
@@ -109,6 +123,7 @@ def move_hor(position, direction):
         output[i][1] = position[i][1] + direction
     return output
 
+# moves the tetrimino object down until it hits the game floor or other blocks
 def move_down(position, game_data):
     obj_pos = [x[:] for x in position]
     while True:
@@ -122,24 +137,29 @@ def move_down(position, game_data):
             break
     return obj_pos
 
+# checks if the current position of the tetrimino is valid
 def valid_position(position, game_data):
     for coords in position:
+        # checks if piece position is out of bounds
         if coords[0] < 0 or coords[1] < 0:
             return False
         if coords[0] >= GAME_DIM[0]:
             return False
         if coords[1] >= GAME_DIM[1]:
             return False
+        # check if piece intersects with other blocks already on the board
         if game_data[coords[0]][coords[1]] == 1:
             return False
     return True
 
+# permanentally places a piece into the game board
 def put_on_board(position, game_data):
     new_state = np.copy(game_data)
     for coords in position:
         new_state[coords[0]][coords[1]] = 1
     return new_state
 
+# check for line clears
 def check_line_clear_jstris(game_data):
     lines_cleared = 0
     if np.array_equal(game_data, FULL_BOX) or np.array_equal(game_data, EMPTY_BOX):
@@ -153,6 +173,7 @@ def check_line_clear_jstris(game_data):
 
 # tetrimino data
 
+# the color of each tetrimino type on Jstris
 PIECE_COLOR = {
     'L': [212,99,40], 
     'J': [33,70,191],
@@ -164,6 +185,7 @@ PIECE_COLOR = {
     'ALL': {212:'L',33:'J',66:'I',112:'S',198:'Z',218:'O',161:'T'}
 }
 
+# starting position of each tetrimino type in every rotation
 rotations = {
     'O': {
         0: [[0,4],[0,5],[1,4],[1,5]]

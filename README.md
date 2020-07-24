@@ -43,6 +43,8 @@ Version 5: Just a slightly optimized and cleaner version of version 4. This is t
 
 Version 6: Removed next piece visibility, to improve the speed. Also changed it so the program scans every line instead of every two lines. With numerous other small optimizations, the program can now reach the max level without any issues every time.
 
+Version 7: Updated to be compatible with the Jstris Tetris website, an online Tetris platform that supports multiplayer play
+
 ## libraries used
 - numpy: generally important for any AI or machine learning program to create arrays
 - time: in some areas the program worked faster than the game, so time.sleep was used to compensate
