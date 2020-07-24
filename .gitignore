@@ -1,5 +1,6 @@
 .DS_Store
 Output.txt
+display_config.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

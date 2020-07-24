@@ -4,10 +4,11 @@ import pynput.keyboard as pyk
 from functions import *
 
 # global variables
-NEXT_PIECES = {"top": TOP, "left": LEFT+WIDTH*1.25, "width": 1, "height": HEIGHT} # coords on screen
+NEXT_PIECES = {"top": TOP, "left": LEFT+WIDTH*1.3, "width": 1, "height": HEIGHT} # coords on screen
 HOR_RANGE = [i for i in range(-5,6)]
 LOADING_SCREEN = np.array(11 * [[0]*10] + 3 * [[1]*10] + 6 * [[0]*10], dtype=np.float64)
 REST = 0.05
+LOOK_AHEAD = 0 # requires BEEFY computer
 
 # scoring variables
 score_per_line = 100
@@ -21,6 +22,7 @@ def run_game(pop, play_mode=False, display = False):
     # general initializations
     fitness = 0
     lines_cleared = 0
+    turns_alive = 0
 
     # start bot at right time and get initial game data
     game_data = get_raw_data()
@@ -36,11 +38,12 @@ def run_game(pop, play_mode=False, display = False):
     keyboard.release(pyk.Key.space)
 
     while True:
-        # get the best score using next pieces and calculate no. of lines cleared
-        best = calc_best_score(next_piece_list, game_data, pop)
+        # get the best score using next pieces and calculate no. of lines cleared 
+        best = calc_best_score(next_piece_list[:LOOK_AHEAD+1], game_data, pop)
         position = move_down(move_hor(rotations[best[1]][best[2]],best[3]), game_data)
         game_data = put_on_board(position,game_data)
         lines_cleared += check_line_clear_jstris(game_data)
+        turns_alive += stay_alive_score
         
         # prints game board to stdout if display is true
         if display:
@@ -67,8 +70,12 @@ def run_game(pop, play_mode=False, display = False):
         keyboard.press(pyk.Key.space)
         keyboard.release(pyk.Key.space)
 
+    return int(lines_cleared * 100 + turns_alive)
+
+# calculates the best score
 def calc_best_score(next_piece_list, game_data, pop):
     moves = []
+    # get max score of each rotation and position
     for piece in next_piece_list[0]:
         for rotation in rotations[piece]:
             for pos in HOR_RANGE:
@@ -76,11 +83,30 @@ def calc_best_score(next_piece_list, game_data, pop):
                 if valid_position(position,game_data):
                     position = move_down(position,game_data)
                     new_state = put_on_board(position,game_data)
-                    lines_cleared = check_line_clear_jstris(game_data)
-                    h = calc_heuristics(new_state,lines_cleared)
-                    score = calc_score(h,pop)
+                    scores = []
+                    look_ahead_score(next_piece_list[1:],new_state,pop,scores)
+                    score = max(scores)
                     moves.append([score, piece, rotation, pos])
     return max(moves)
+
+# enhances move choice by looking ahead at future pieces
+def look_ahead_score(next_piece_list, game_data, pop, scores):
+    # calculates score of gameboard if no next pieces left
+    if len(next_piece_list) == 0:
+        lines_cleared = check_line_clear_jstris(game_data)
+        h = calc_heuristics(game_data,lines_cleared)
+        score = calc_score(h,pop)
+        scores.append(score)
+    # check all rotations and positions of next piece
+    else:
+        for piece in next_piece_list[0]:
+            for rotation in rotations[piece]:
+                for pos in HOR_RANGE:
+                    position = move_hor(rotations[piece][rotation],pos)
+                    if valid_position(position,game_data):
+                        position = move_down(position,game_data)
+                        new_state = put_on_board(position,game_data)
+                        look_ahead_score(next_piece_list[1:],new_state,pop, scores)
 
 # returns list of next tetriminos
 def get_next_pieces():
