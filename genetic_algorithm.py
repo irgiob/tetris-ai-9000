@@ -1,4 +1,5 @@
-from play import run_game
+#from play import run_game
+from play_jstris import run_game
 import random
 
 # calculate fitness score by playing the game

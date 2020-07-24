@@ -4,13 +4,13 @@ import numpy as np
 
 ## DISPLAY CONFIG ##
 # display configuration variables (adjust position of game elements on your specific device)
-TOP = 172
-LEFT = 270
-WIDTH = 261
-HEIGHT = 521
-BOX_START_X = 284
-BOX_Y = 185
-RESUME = (410,375)
+TOP = 237    
+LEFT = 122    
+WIDTH = 240    
+HEIGHT = 478    
+BOX_START_X = 133    
+BOX_Y = 250    
+RESUME = (330, 744)
 
 # other game position variables (do not edit)
 MAIN_GAME = {"top": TOP, "left": LEFT, "width": WIDTH, "height": HEIGHT} # coords on screen
