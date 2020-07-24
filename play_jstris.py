@@ -4,7 +4,7 @@ import pynput.keyboard as pyk
 from functions import *
 
 # global variables
-NEXT_PIECES = {"top": 240, "left": 420, "width": 1, "height": 370} # coords on screen
+NEXT_PIECES = {"top": TOP, "left": LEFT+WIDTH*1.25, "width": 1, "height": HEIGHT} # coords on screen
 HOR_RANGE = [i for i in range(-5,6)]
 LOADING_SCREEN = np.array(11 * [[0]*10] + 3 * [[1]*10] + 6 * [[0]*10], dtype=np.float64)
 REST = 0.05

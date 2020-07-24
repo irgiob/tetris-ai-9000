@@ -1,18 +1,14 @@
 from mss import mss
 from PIL import Image
 import numpy as np
+import json
 
-## DISPLAY CONFIG ##
 # display configuration variables (adjust position of game elements on your specific device)
-TOP = 237    
-LEFT = 122    
-WIDTH = 240    
-HEIGHT = 478    
-BOX_START_X = 133    
-BOX_Y = 250    
-RESUME = (330, 744)
+with open('display_config.txt') as json_file: 
+    display_data = json.load(json_file)
+    globals().update(display_data)
 
-# other game position variables (do not edit)
+# other game position variables
 MAIN_GAME = {"top": TOP, "left": LEFT, "width": WIDTH, "height": HEIGHT} # coords on screen
 START_POS = JUMP_DIST = round(WIDTH / 10)
 BOX_DIST = JUMP_DIST * 2

@@ -26,9 +26,8 @@ Though I still want to improve the AI to the point where it could reach a score 
 ## how to use the program
 1. Open the Tetris game website and python script, and arrange your window so both the game and whatever app you're using to run the python program are both fully visible. Set the Tetris game to be on the pause menu. 
 2. Run the display_config.py script and follow the instructions to get the variables needed to run the program on your specific device.
-3. Copy paste the indicated output from display_config.py into its proper place under DISPLAY CONFIG in functions.py.
-4. If you want to use the already trained AI, all the settings are already set for that. Simply run the main.py program.
-5. If you want to train the AI yourself, set MODE in main.py to 'TRAIN' instead of 'PLAY'. Then you can set whether you'll be starting from scratch or continuing from previous generation data. You can also just specific genetic algorithm variables such as population and mating pool.
+3. If you want to use the already trained AI, all the settings are already set for that. Simply run the main.py program.
+4. If you want to train the AI yourself, set MODE in main.py to 'TRAIN' instead of 'PLAY'. Then you can set whether you'll be starting from scratch or continuing from previous generation data. You can also just specific genetic algorithm variables such as population and mating pool.
 
 ## version history
 Version 1: The genetic algorithm was used to choose a specific move; each frame the genetic algorithm would calculate a score for going left, right or rotate, and choose the move that had the highest score. This version did very poorly, achieving only a high score of 3 lines even with 25 generations.
@@ -43,7 +42,7 @@ Version 5: Just a slightly optimized and cleaner version of version 4. This is t
 
 Version 6: Removed next piece visibility, to improve the speed. Also changed it so the program scans every line instead of every two lines. With numerous other small optimizations, the program can now reach the max level without any issues every time.
 
-Version 7: Updated to be compatible with the Jstris Tetris website, an online Tetris platform that supports multiplayer play
+Version 7: Updated to be compatible with the Jstris Tetris website, an online Tetris platform that supports multiplayer play. This version is able to utilize the look-ahead pieces unlike previous versions. This version also adds automatic loading of display settings so you don't have to edit the code manually.
 
 ## libraries used
 - numpy: generally important for any AI or machine learning program to create arrays

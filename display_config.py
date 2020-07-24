@@ -1,4 +1,5 @@
 from pynput import mouse
+import json
 
 ## RUN BEFORE RUNNING MAIN ##
 # use this file to configure the programs display
@@ -32,8 +33,7 @@ for step in steps:
 
 # converts mouse coordinates to all variables needed for program
 print(
-    f'\nConfiguration Complete. Copy-Paste the lines below to the\
-    \nto the DISPLAY CONFIG section of functions.py\n\
+    f'\nConfiguration Complete.\
     \nTOP = {config[2][1]}\
     \nLEFT = {config[2][0]}\
     \nWIDTH = {config[3][0] - config[2][0]}\
@@ -42,3 +42,17 @@ print(
     \nBOX_Y = {config[4][1]}\
     \nRESUME = {config[5]}\n'
 )
+
+# saves settings to JSON
+output = {
+    'TOP': config[2][1], 
+    'LEFT': config[2][0], 
+    'WIDTH': config[3][0] - config[2][0],
+    'HEIGHT': config[3][1] - config [2][1],
+    'BOX_START_X': config[4][0],
+    'BOX_Y': config[4][1],
+    'RESUME': config[5]
+}
+
+with open('display_config.txt', 'w') as json_file:
+  json.dump(output, json_file)
